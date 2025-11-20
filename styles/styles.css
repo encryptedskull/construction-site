@@ -47,6 +47,14 @@ body {
   font-size: large;
 }
 
+.nav-links a:hover {
+  color: #86c7ed;
+}
+
+.nav-links a.active {
+  color: #86c7ed;
+}
+
 .nav-a-div {
   width: 25%;
   padding: 0.625rem;
@@ -61,7 +69,9 @@ body {
   background-color: #86c7ed;
   color: #f4f4f4;
 }
-
+.notify-div p {
+  margin: 0;
+}
 .end-a-div {
   width: 85%;
   height: 1.875rem;
