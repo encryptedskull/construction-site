@@ -74,12 +74,13 @@ body {
 }
 .end-a-div {
   width: 85%;
-  height: 1.875rem;
+  height: 2.875rem;
   display: flex;
   justify-content: flex-end;
   align-items: center;
   padding-right: 1.25rem;
   font-size: medium;
+  gap: 1rem;
 }
 
 .end-b-div {
@@ -96,7 +97,7 @@ body {
 }
 
 .border {
-  border: 0.0625rem solid #000;
+  border: 0.25rem solid #ae1b1b;
 }
 
 .o-pad {
@@ -231,12 +232,12 @@ a {
   width: 100%;
   display: flex;
   align-items: center;
-  gap: 0.625rem;
+  gap: 1rem;
   justify-content: center;
 }
 
 .work-img {
-  width: 30%;
+  width: 32%;
   padding: 0.3125rem;
 }
 
@@ -248,7 +249,7 @@ a {
 
 .worker-info {
   padding: 0.3125rem;
-  height: 25rem;
+  /* height: 25rem; */
   width: 45%;
   display: flex;
   flex-direction: column;
@@ -512,6 +513,9 @@ h6 {
   .problems-info {
     grid-template-columns: repeat(2, 1fr);
   }
+  .work-img img {
+    height: 32rem;
+  }
 }
 
 @media (max-width: 768px) {
@@ -529,7 +533,7 @@ h6 {
   .nav-a-div {
     width: 100%;
     justify-content: center;
-    margin: 0.5rem 0;
+    gap: 1rem;
   }
 
   .slider-cards-div {
@@ -578,6 +582,12 @@ h6 {
   .person-info {
     width: 90%;
   }
+  .person-info {
+    align-items: center;
+  }
+  .end-a-div {
+    display: none;
+  }
 }
 
 @media (max-width: 480px) {
@@ -596,9 +606,38 @@ h6 {
   .button-div {
     flex-direction: column;
   }
-
+  .end-a-div {
+    display: none;
+  }
   .end-b-div {
     flex-wrap: wrap;
     justify-content: center;
+  }
+
+  .footer-div-1 {
+    width: 100%;
+    height: 15rem;
+    border-bottom: 1px solid white;
+    display: flex;
+    gap: 0.25rem;
+    padding: 0.25rem;
+  }
+  .footer-card {
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 1rem;
+    padding: 0;
+    box-sizing: border-box;
+    padding-left: 0.12rem;
+  }
+  .a-child {
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+  }
+  .person-info {
+    align-items: center;
   }
 }
