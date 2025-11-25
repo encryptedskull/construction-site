@@ -12,14 +12,16 @@
     <link rel="stylesheet" href="../styles/styles.css" />
   </head>
   <body>
-    <div>
+    <div class="parent-div">
       <div class="flex-c-c notify-div">
         <p class="">Notifications are displayed here</p>
       </div>
 
       <div class="nav-div">
         <nav class="navbar">
-          <img src="../assets/logo.png" alt="logo" class="logo" />
+          <div class="mh-logo">
+            <img src="../assets/logo.png" alt="logo" class="logo" />
+          </div>
 
           <div class="nav-links">
             <a href="./home.html" target="_blank">Home</a>
@@ -28,13 +30,16 @@
             <a href="#">Workers</a>
           </div>
 
-          <div class="width-300 flex-c-a nav-a-div">
+          <div class="nav-a-div">
             <a href="#" class="worker-a">Become a worker</a>
-
-            <!-- FREE ICONS -->
-            <i class="fa-solid fa-magnifying-glass"></i>
-            <i class="fa-solid fa-phone"></i>
-            <i class="fa-solid fa-user"></i>
+            <div class="icons-div">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <i class="fa-solid fa-phone"></i>
+              <i class="fa-solid fa-user"></i>
+            </div>
+          </div>
+          <div class="navbar-menu">
+            <i class="fa-solid fa-bars"></i>
           </div>
         </nav>
         <div class="end-a-div">
@@ -45,398 +50,427 @@
             <a href="#">Mechanic</a>
             <a href="#">Plumber</a>
             <a href="#">Electrician</a>
+            <a href="#">Carpenter</a>
           </div>
         </div>
       </div>
-    </div>
-    <div class="header">
-      <h1>Our Workers</h1>
-      <p>
-        Our Skilled and Certified Professionals ready for your project needs
-      </p>
-      <p>
-        Explore our team of construction workers, each bringing expertise and
-        dedication to every job.
-      </p>
-      <p>
-        From electricians to masons, our workers are committed to delivering
-        quality craftsmanship and safety.
-      </p>
-    </div>
+      <div class="header">
+        <h1>Our Workers</h1>
+        <p>
+          Our Skilled and Certified Professionals ready for your project needs
+        </p>
+        <p>
+          Explore our team of construction workers, each bringing expertise and
+          dedication to every job.
+        </p>
+        <p>
+          From electricians to masons, our workers are committed to delivering
+          quality craftsmanship and safety.
+        </p>
+      </div>
 
-    <div class="outer-sec-container">
-      <div class="container">
-        <section class="category-section">
-          <h2 class="category-title">
-            <i class="fas fa-bolt"></i> Electricians
-          </h2>
-          <div class="worker-grid">
-            <div class="worker-card">
-              <img
-                src="../assets/workers-img.png"
-                alt="Electrician"
-                class="worker-photo"
-              />
-              <div class="workers-info">
-                <h3 class="worker-name">John Doe</h3>
-                <p class="worker-role">Senior Electrician</p>
-                <ul class="worker-details">
-                  <li><i class="fas fa-briefcase"></i> Experience: 8 years</li>
-                  <li>
-                    <i class="fas fa-certificate"></i> Certifications: Master
-                    Electrician, OSHA 30
-                  </li>
-                  <li>
-                    <i class="fas fa-envelope"></i> Contact:
-                    john.doe@example.com
-                  </li>
-                  <li><i class="fas fa-phone"></i> Phone: (555) 123-4567</li>
-                </ul>
-                <div class="worker-skills">
-                  <span class="skill-tag">Residential Wiring</span>
-                  <span class="skill-tag">Commercial Systems</span>
-                  <span class="skill-tag">Solar Installation</span>
+      <div class="outer-sec-container">
+        <div class="container">
+          <section class="category-section">
+            <h2 class="category-title">
+              <i class="fas fa-bolt"></i> Electricians
+            </h2>
+            <div class="worker-grid">
+              <div class="worker-card">
+                <img
+                  src="../assets/workers-img.png"
+                  alt="Electrician"
+                  class="worker-photo"
+                />
+                <div class="workers-info">
+                  <h3 class="worker-name">John Doe</h3>
+                  <p class="worker-role">Senior Electrician</p>
+                  <ul class="worker-details">
+                    <li>
+                      <i class="fas fa-briefcase"></i> Experience: 8 years
+                    </li>
+                    <li>
+                      <i class="fas fa-certificate"></i> Certifications: Master
+                      Electrician, OSHA 30
+                    </li>
+                    <li>
+                      <i class="fas fa-envelope"></i> Contact:
+                      john.doe@example.com
+                    </li>
+                    <li><i class="fas fa-phone"></i> Phone: (555) 123-4567</li>
+                  </ul>
+                  <div class="worker-skills">
+                    <span class="skill-tag">Residential Wiring</span>
+                    <span class="skill-tag">Commercial Systems</span>
+                    <span class="skill-tag">Solar Installation</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="worker-card">
+                <img
+                  src="../assets/workers-img.png"
+                  alt="Electrician"
+                  class="worker-photo"
+                />
+                <div class="workers-info">
+                  <h3 class="worker-name">Robert Johnson</h3>
+                  <p class="worker-role">Electrical Technician</p>
+                  <ul class="worker-details">
+                    <li>
+                      <i class="fas fa-briefcase"></i> Experience: 5 years
+                    </li>
+                    <li>
+                      <i class="fas fa-certificate"></i> Certifications: OSHA
+                      10, Electrical Safety
+                    </li>
+                    <li>
+                      <i class="fas fa-envelope"></i> Contact:
+                      robert.j@example.com
+                    </li>
+                    <li><i class="fas fa-phone"></i> Phone: (555) 234-5678</li>
+                  </ul>
+                  <div class="worker-skills">
+                    <span class="skill-tag">Troubleshooting</span>
+                    <span class="skill-tag">Panel Installation</span>
+                    <span class="skill-tag">Code Compliance</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="worker-card">
+                <img
+                  src="../assets/workers-img.png"
+                  alt="Electrician"
+                  class="worker-photo"
+                />
+                <div class="workers-info">
+                  <h3 class="worker-name">Michael Chen</h3>
+                  <p class="worker-role">Industrial Electrician</p>
+                  <ul class="worker-details">
+                    <li>
+                      <i class="fas fa-briefcase"></i> Experience: 12 years
+                    </li>
+                    <li>
+                      <i class="fas fa-certificate"></i> Certifications:
+                      Industrial Electrical, Safety Training
+                    </li>
+                    <li>
+                      <i class="fas fa-envelope"></i> Contact:
+                      m.chen@example.com
+                    </li>
+                    <li><i class="fas fa-phone"></i> Phone: (555) 345-6789</li>
+                  </ul>
+                  <div class="worker-skills">
+                    <span class="skill-tag">Industrial Systems</span>
+                    <span class="skill-tag">Motor Controls</span>
+                    <span class="skill-tag">PLC Programming</span>
+                  </div>
                 </div>
               </div>
             </div>
+          </section>
 
-            <div class="worker-card">
-              <img
-                src="../assets/workers-img.png"
-                alt="Electrician"
-                class="worker-photo"
-              />
-              <div class="workers-info">
-                <h3 class="worker-name">Robert Johnson</h3>
-                <p class="worker-role">Electrical Technician</p>
-                <ul class="worker-details">
-                  <li><i class="fas fa-briefcase"></i> Experience: 5 years</li>
-                  <li>
-                    <i class="fas fa-certificate"></i> Certifications: OSHA 10,
-                    Electrical Safety
-                  </li>
-                  <li>
-                    <i class="fas fa-envelope"></i> Contact:
-                    robert.j@example.com
-                  </li>
-                  <li><i class="fas fa-phone"></i> Phone: (555) 234-5678</li>
-                </ul>
-                <div class="worker-skills">
-                  <span class="skill-tag">Troubleshooting</span>
-                  <span class="skill-tag">Panel Installation</span>
-                  <span class="skill-tag">Code Compliance</span>
+          <section class="category-section">
+            <h2 class="category-title">
+              <i class="fas fa-faucet"></i> Plumbers
+            </h2>
+            <div class="worker-grid">
+              <div class="worker-card">
+                <img
+                  src="../assets/workers-img.png"
+                  alt="Plumber"
+                  class="worker-photo"
+                />
+                <div class="workers-info">
+                  <h3 class="worker-name">Jane Smith</h3>
+                  <p class="worker-role">Master Plumber</p>
+                  <ul class="worker-details">
+                    <li>
+                      <i class="fas fa-briefcase"></i> Experience: 10 years
+                    </li>
+                    <li>
+                      <i class="fas fa-certificate"></i> Certifications:
+                      Plumbing License, Safety Training
+                    </li>
+                    <li>
+                      <i class="fas fa-envelope"></i> Contact:
+                      jane.smith@example.com
+                    </li>
+                    <li><i class="fas fa-phone"></i> Phone: (555) 456-7890</li>
+                  </ul>
+                  <div class="worker-skills">
+                    <span class="skill-tag">Pipe Installation</span>
+                    <span class="skill-tag">Fixture Repair</span>
+                    <span class="skill-tag">Drain Cleaning</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="worker-card">
+                <img
+                  src="../assets/workers-img.png"
+                  alt="Plumber"
+                  class="worker-photo"
+                />
+                <div class="workers-info">
+                  <h3 class="worker-name">David Wilson</h3>
+                  <p class="worker-role">Commercial Plumber</p>
+                  <ul class="worker-details">
+                    <li>
+                      <i class="fas fa-briefcase"></i> Experience: 7 years
+                    </li>
+                    <li>
+                      <i class="fas fa-certificate"></i> Certifications:
+                      Backflow Prevention, OSHA 30
+                    </li>
+                    <li>
+                      <i class="fas fa-envelope"></i> Contact:
+                      d.wilson@example.com
+                    </li>
+                    <li><i class="fas fa-phone"></i> Phone: (555) 567-8901</li>
+                  </ul>
+                  <div class="worker-skills">
+                    <span class="skill-tag">Commercial Plumbing</span>
+                    <span class="skill-tag">Gas Line Installation</span>
+                    <span class="skill-tag">Water Heater Systems</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="worker-card">
+                <img
+                  src="../assets/workers-img.png"
+                  alt="Plumber"
+                  class="worker-photo"
+                />
+                <div class="workers-info">
+                  <h3 class="worker-name">Maria Garcia</h3>
+                  <p class="worker-role">Residential Plumber</p>
+                  <ul class="worker-details">
+                    <li>
+                      <i class="fas fa-briefcase"></i> Experience: 6 years
+                    </li>
+                    <li>
+                      <i class="fas fa-certificate"></i> Certifications:
+                      Plumbing Apprentice, Safety Certified
+                    </li>
+                    <li>
+                      <i class="fas fa-envelope"></i> Contact:
+                      m.garcia@example.com
+                    </li>
+                    <li><i class="fas fa-phone"></i> Phone: (555) 678-9012</li>
+                  </ul>
+                  <div class="worker-skills">
+                    <span class="skill-tag">Residential Plumbing</span>
+                    <span class="skill-tag">Leak Detection</span>
+                    <span class="skill-tag">Fixture Installation</span>
+                  </div>
                 </div>
               </div>
             </div>
+          </section>
 
-            <div class="worker-card">
-              <img
-                src="../assets/workers-img.png"
-                alt="Electrician"
-                class="worker-photo"
-              />
-              <div class="workers-info">
-                <h3 class="worker-name">Michael Chen</h3>
-                <p class="worker-role">Industrial Electrician</p>
-                <ul class="worker-details">
-                  <li><i class="fas fa-briefcase"></i> Experience: 12 years</li>
-                  <li>
-                    <i class="fas fa-certificate"></i> Certifications:
-                    Industrial Electrical, Safety Training
-                  </li>
-                  <li>
-                    <i class="fas fa-envelope"></i> Contact: m.chen@example.com
-                  </li>
-                  <li><i class="fas fa-phone"></i> Phone: (555) 345-6789</li>
-                </ul>
-                <div class="worker-skills">
-                  <span class="skill-tag">Industrial Systems</span>
-                  <span class="skill-tag">Motor Controls</span>
-                  <span class="skill-tag">PLC Programming</span>
+          <section class="category-section">
+            <h2 class="category-title">
+              <i class="fas fa-hammer"></i> Carpenters
+            </h2>
+            <div class="worker-grid">
+              <div class="worker-card">
+                <img
+                  src="../assets/workers-img.png"
+                  alt="Carpenter"
+                  class="worker-photo"
+                />
+                <div class="workers-info">
+                  <h3 class="worker-name">James Anderson</h3>
+                  <p class="worker-role">Finish Carpenter</p>
+                  <ul class="worker-details">
+                    <li>
+                      <i class="fas fa-briefcase"></i> Experience: 9 years
+                    </li>
+                    <li>
+                      <i class="fas fa-certificate"></i> Certifications:
+                      Carpentry Apprenticeship, Safety Certified
+                    </li>
+                    <li>
+                      <i class="fas fa-envelope"></i> Contact:
+                      j.anderson@example.com
+                    </li>
+                    <li><i class="fas fa-phone"></i> Phone: (555) 789-0123</li>
+                  </ul>
+                  <div class="worker-skills">
+                    <span class="skill-tag">Framing</span>
+                    <span class="skill-tag">Finish Carpentry</span>
+                    <span class="skill-tag">Cabinet Making</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="worker-card">
+                <img
+                  src="../assets/workers-img.png"
+                  alt="Carpenter"
+                  class="worker-photo"
+                />
+                <div class="workers-info">
+                  <h3 class="worker-name">Sarah Davis</h3>
+                  <p class="worker-role">Custom Furniture Maker</p>
+                  <ul class="worker-details">
+                    <li>
+                      <i class="fas fa-briefcase"></i> Experience: 11 years
+                    </li>
+                    <li>
+                      <i class="fas fa-certificate"></i> Certifications:
+                      Woodworking Certification, OSHA 10
+                    </li>
+                    <li>
+                      <i class="fas fa-envelope"></i> Contact:
+                      s.davis@example.com
+                    </li>
+                    <li><i class="fas fa-phone"></i> Phone: (555) 890-1234</li>
+                  </ul>
+                  <div class="worker-skills">
+                    <span class="skill-tag">Trim Work</span>
+                    <span class="skill-tag">Custom Furniture</span>
+                    <span class="skill-tag">Stair Building</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="worker-card">
+                <img
+                  src="../assets/workers-img.png"
+                  alt="Carpenter"
+                  class="worker-photo"
+                />
+                <div class="workers-info">
+                  <h3 class="worker-name">Thomas Wright</h3>
+                  <p class="worker-role">Framing Carpenter</p>
+                  <ul class="worker-details">
+                    <li>
+                      <i class="fas fa-briefcase"></i> Experience: 8 years
+                    </li>
+                    <li>
+                      <i class="fas fa-certificate"></i> Certifications: Framing
+                      Specialist, Safety Training
+                    </li>
+                    <li>
+                      <i class="fas fa-envelope"></i> Contact:
+                      t.wright@example.com
+                    </li>
+                    <li><i class="fas fa-phone"></i> Phone: (555) 901-2345</li>
+                  </ul>
+                  <div class="worker-skills">
+                    <span class="skill-tag">Structural Framing</span>
+                    <span class="skill-tag">Roof Construction</span>
+                    <span class="skill-tag">Blueprint Reading</span>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-        </section>
+          </section>
 
-        <section class="category-section">
-          <h2 class="category-title"><i class="fas fa-faucet"></i> Plumbers</h2>
-          <div class="worker-grid">
-            <div class="worker-card">
-              <img
-                src="../assets/workers-img.png"
-                alt="Plumber"
-                class="worker-photo"
-              />
-              <div class="workers-info">
-                <h3 class="worker-name">Jane Smith</h3>
-                <p class="worker-role">Master Plumber</p>
-                <ul class="worker-details">
-                  <li><i class="fas fa-briefcase"></i> Experience: 10 years</li>
-                  <li>
-                    <i class="fas fa-certificate"></i> Certifications: Plumbing
-                    License, Safety Training
-                  </li>
-                  <li>
-                    <i class="fas fa-envelope"></i> Contact:
-                    jane.smith@example.com
-                  </li>
-                  <li><i class="fas fa-phone"></i> Phone: (555) 456-7890</li>
-                </ul>
-                <div class="worker-skills">
-                  <span class="skill-tag">Pipe Installation</span>
-                  <span class="skill-tag">Fixture Repair</span>
-                  <span class="skill-tag">Drain Cleaning</span>
+          <section class="category-section">
+            <h2 class="category-title">
+              <i class="fas fa-border-style"></i> Masons
+            </h2>
+            <div class="worker-grid">
+              <div class="worker-card">
+                <img
+                  src="../assets/workers-img.png"
+                  alt="Mason"
+                  class="worker-photo"
+                />
+                <div class="workers-info">
+                  <h3 class="worker-name">Carlos Rodriguez</h3>
+                  <p class="worker-role">Brick Mason</p>
+                  <ul class="worker-details">
+                    <li>
+                      <i class="fas fa-briefcase"></i> Experience: 14 years
+                    </li>
+                    <li>
+                      <i class="fas fa-certificate"></i> Certifications: Masonry
+                      License, Scaffold Safety
+                    </li>
+                    <li>
+                      <i class="fas fa-envelope"></i> Contact:
+                      c.rodriguez@example.com
+                    </li>
+                    <li><i class="fas fa-phone"></i> Phone: (555) 012-3456</li>
+                  </ul>
+                  <div class="worker-skills">
+                    <span class="skill-tag">Brick Laying</span>
+                    <span class="skill-tag">Concrete Work</span>
+                    <span class="skill-tag">Stone Masonry</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="worker-card">
+                <img
+                  src="../assets/workers-img.png"
+                  alt="Mason"
+                  class="worker-photo"
+                />
+                <div class="workers-info">
+                  <h3 class="worker-name">James Miller</h3>
+                  <p class="worker-role">Concrete Specialist</p>
+                  <ul class="worker-details">
+                    <li>
+                      <i class="fas fa-briefcase"></i> Experience: 10 years
+                    </li>
+                    <li>
+                      <i class="fas fa-certificate"></i> Certifications:
+                      Concrete Finishing, Safety Training
+                    </li>
+                    <li>
+                      <i class="fas fa-envelope"></i> Contact:
+                      j.miller@example.com
+                    </li>
+                    <li><i class="fas fa-phone"></i> Phone: (555) 123-4567</li>
+                  </ul>
+                  <div class="worker-skills">
+                    <span class="skill-tag">Foundation Work</span>
+                    <span class="skill-tag">Decorative Concrete</span>
+                    <span class="skill-tag">Formwork</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="worker-card">
+                <img
+                  src="../assets/workers-img.png"
+                  alt="Mason"
+                  class="worker-photo"
+                />
+                <div class="workers-info">
+                  <h3 class="worker-name">Robert Taylor</h3>
+                  <p class="worker-role">Stone Mason</p>
+                  <ul class="worker-details">
+                    <li>
+                      <i class="fas fa-briefcase"></i> Experience: 16 years
+                    </li>
+                    <li>
+                      <i class="fas fa-certificate"></i> Certifications: Stone
+                      Masonry, Heritage Restoration
+                    </li>
+                    <li>
+                      <i class="fas fa-envelope"></i> Contact:
+                      r.taylor@example.com
+                    </li>
+                    <li><i class="fas fa-phone"></i> Phone: (555) 234-5678</li>
+                  </ul>
+                  <div class="worker-skills">
+                    <span class="skill-tag">Natural Stone</span>
+                    <span class="skill-tag">Heritage Restoration</span>
+                    <span class="skill-tag">Patio Construction</span>
+                  </div>
                 </div>
               </div>
             </div>
-
-            <div class="worker-card">
-              <img
-                src="../assets/workers-img.png"
-                alt="Plumber"
-                class="worker-photo"
-              />
-              <div class="workers-info">
-                <h3 class="worker-name">David Wilson</h3>
-                <p class="worker-role">Commercial Plumber</p>
-                <ul class="worker-details">
-                  <li><i class="fas fa-briefcase"></i> Experience: 7 years</li>
-                  <li>
-                    <i class="fas fa-certificate"></i> Certifications: Backflow
-                    Prevention, OSHA 30
-                  </li>
-                  <li>
-                    <i class="fas fa-envelope"></i> Contact:
-                    d.wilson@example.com
-                  </li>
-                  <li><i class="fas fa-phone"></i> Phone: (555) 567-8901</li>
-                </ul>
-                <div class="worker-skills">
-                  <span class="skill-tag">Commercial Plumbing</span>
-                  <span class="skill-tag">Gas Line Installation</span>
-                  <span class="skill-tag">Water Heater Systems</span>
-                </div>
-              </div>
-            </div>
-
-            <div class="worker-card">
-              <img
-                src="../assets/workers-img.png"
-                alt="Plumber"
-                class="worker-photo"
-              />
-              <div class="workers-info">
-                <h3 class="worker-name">Maria Garcia</h3>
-                <p class="worker-role">Residential Plumber</p>
-                <ul class="worker-details">
-                  <li><i class="fas fa-briefcase"></i> Experience: 6 years</li>
-                  <li>
-                    <i class="fas fa-certificate"></i> Certifications: Plumbing
-                    Apprentice, Safety Certified
-                  </li>
-                  <li>
-                    <i class="fas fa-envelope"></i> Contact:
-                    m.garcia@example.com
-                  </li>
-                  <li><i class="fas fa-phone"></i> Phone: (555) 678-9012</li>
-                </ul>
-                <div class="worker-skills">
-                  <span class="skill-tag">Residential Plumbing</span>
-                  <span class="skill-tag">Leak Detection</span>
-                  <span class="skill-tag">Fixture Installation</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section class="category-section">
-          <h2 class="category-title">
-            <i class="fas fa-hammer"></i> Carpenters
-          </h2>
-          <div class="worker-grid">
-            <div class="worker-card">
-              <img
-                src="../assets/workers-img.png"
-                alt="Carpenter"
-                class="worker-photo"
-              />
-              <div class="workers-info">
-                <h3 class="worker-name">James Anderson</h3>
-                <p class="worker-role">Finish Carpenter</p>
-                <ul class="worker-details">
-                  <li><i class="fas fa-briefcase"></i> Experience: 9 years</li>
-                  <li>
-                    <i class="fas fa-certificate"></i> Certifications: Carpentry
-                    Apprenticeship, Safety Certified
-                  </li>
-                  <li>
-                    <i class="fas fa-envelope"></i> Contact:
-                    j.anderson@example.com
-                  </li>
-                  <li><i class="fas fa-phone"></i> Phone: (555) 789-0123</li>
-                </ul>
-                <div class="worker-skills">
-                  <span class="skill-tag">Framing</span>
-                  <span class="skill-tag">Finish Carpentry</span>
-                  <span class="skill-tag">Cabinet Making</span>
-                </div>
-              </div>
-            </div>
-
-            <div class="worker-card">
-              <img
-                src="../assets/workers-img.png"
-                alt="Carpenter"
-                class="worker-photo"
-              />
-              <div class="workers-info">
-                <h3 class="worker-name">Sarah Davis</h3>
-                <p class="worker-role">Custom Furniture Maker</p>
-                <ul class="worker-details">
-                  <li><i class="fas fa-briefcase"></i> Experience: 11 years</li>
-                  <li>
-                    <i class="fas fa-certificate"></i> Certifications:
-                    Woodworking Certification, OSHA 10
-                  </li>
-                  <li>
-                    <i class="fas fa-envelope"></i> Contact: s.davis@example.com
-                  </li>
-                  <li><i class="fas fa-phone"></i> Phone: (555) 890-1234</li>
-                </ul>
-                <div class="worker-skills">
-                  <span class="skill-tag">Trim Work</span>
-                  <span class="skill-tag">Custom Furniture</span>
-                  <span class="skill-tag">Stair Building</span>
-                </div>
-              </div>
-            </div>
-
-            <div class="worker-card">
-              <img
-                src="../assets/workers-img.png"
-                alt="Carpenter"
-                class="worker-photo"
-              />
-              <div class="workers-info">
-                <h3 class="worker-name">Thomas Wright</h3>
-                <p class="worker-role">Framing Carpenter</p>
-                <ul class="worker-details">
-                  <li><i class="fas fa-briefcase"></i> Experience: 8 years</li>
-                  <li>
-                    <i class="fas fa-certificate"></i> Certifications: Framing
-                    Specialist, Safety Training
-                  </li>
-                  <li>
-                    <i class="fas fa-envelope"></i> Contact:
-                    t.wright@example.com
-                  </li>
-                  <li><i class="fas fa-phone"></i> Phone: (555) 901-2345</li>
-                </ul>
-                <div class="worker-skills">
-                  <span class="skill-tag">Structural Framing</span>
-                  <span class="skill-tag">Roof Construction</span>
-                  <span class="skill-tag">Blueprint Reading</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section class="category-section">
-          <h2 class="category-title">
-            <i class="fas fa-border-style"></i> Masons
-          </h2>
-          <div class="worker-grid">
-            <div class="worker-card">
-              <img
-                src="../assets/workers-img.png"
-                alt="Mason"
-                class="worker-photo"
-              />
-              <div class="workers-info">
-                <h3 class="worker-name">Carlos Rodriguez</h3>
-                <p class="worker-role">Brick Mason</p>
-                <ul class="worker-details">
-                  <li><i class="fas fa-briefcase"></i> Experience: 14 years</li>
-                  <li>
-                    <i class="fas fa-certificate"></i> Certifications: Masonry
-                    License, Scaffold Safety
-                  </li>
-                  <li>
-                    <i class="fas fa-envelope"></i> Contact:
-                    c.rodriguez@example.com
-                  </li>
-                  <li><i class="fas fa-phone"></i> Phone: (555) 012-3456</li>
-                </ul>
-                <div class="worker-skills">
-                  <span class="skill-tag">Brick Laying</span>
-                  <span class="skill-tag">Concrete Work</span>
-                  <span class="skill-tag">Stone Masonry</span>
-                </div>
-              </div>
-            </div>
-
-            <div class="worker-card">
-              <img
-                src="../assets/workers-img.png"
-                alt="Mason"
-                class="worker-photo"
-              />
-              <div class="workers-info">
-                <h3 class="worker-name">James Miller</h3>
-                <p class="worker-role">Concrete Specialist</p>
-                <ul class="worker-details">
-                  <li><i class="fas fa-briefcase"></i> Experience: 10 years</li>
-                  <li>
-                    <i class="fas fa-certificate"></i> Certifications: Concrete
-                    Finishing, Safety Training
-                  </li>
-                  <li>
-                    <i class="fas fa-envelope"></i> Contact:
-                    j.miller@example.com
-                  </li>
-                  <li><i class="fas fa-phone"></i> Phone: (555) 123-4567</li>
-                </ul>
-                <div class="worker-skills">
-                  <span class="skill-tag">Foundation Work</span>
-                  <span class="skill-tag">Decorative Concrete</span>
-                  <span class="skill-tag">Formwork</span>
-                </div>
-              </div>
-            </div>
-
-            <div class="worker-card">
-              <img
-                src="../assets/workers-img.png"
-                alt="Mason"
-                class="worker-photo"
-              />
-              <div class="workers-info">
-                <h3 class="worker-name">Robert Taylor</h3>
-                <p class="worker-role">Stone Mason</p>
-                <ul class="worker-details">
-                  <li><i class="fas fa-briefcase"></i> Experience: 16 years</li>
-                  <li>
-                    <i class="fas fa-certificate"></i> Certifications: Stone
-                    Masonry, Heritage Restoration
-                  </li>
-                  <li>
-                    <i class="fas fa-envelope"></i> Contact:
-                    r.taylor@example.com
-                  </li>
-                  <li><i class="fas fa-phone"></i> Phone: (555) 234-5678</li>
-                </ul>
-                <div class="worker-skills">
-                  <span class="skill-tag">Natural Stone</span>
-                  <span class="skill-tag">Heritage Restoration</span>
-                  <span class="skill-tag">Patio Construction</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
+          </section>
+        </div>
       </div>
     </div>
   </body>

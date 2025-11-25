@@ -13,14 +13,16 @@
   </head>
 
   <body>
-    <div>
+    <div class="parent-div">
       <div class="flex-c-c notify-div">
         <p class="">Notifications are displayed here</p>
       </div>
 
       <div class="nav-div">
         <nav class="navbar">
-          <img src="../assets/logo.png" alt="logo" class="logo" />
+          <div class="mh-logo">
+            <img src="../assets/logo.png" alt="logo" class="logo" />
+          </div>
 
           <div class="nav-links">
             <a href="./home.html" target="_blank">Home</a>
@@ -29,13 +31,16 @@
             <a href="./worker.html" target="_blank">Workers</a>
           </div>
 
-          <div class="width-300 flex-c-a nav-a-div">
+          <div class="nav-a-div">
             <a href="#" class="worker-a">Become a worker</a>
-
-            <!-- FREE ICONS -->
-            <i class="fa-solid fa-magnifying-glass"></i>
-            <i class="fa-solid fa-phone"></i>
-            <i class="fa-solid fa-user"></i>
+            <div class="icons-div">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <i class="fa-solid fa-phone"></i>
+              <i class="fa-solid fa-user"></i>
+            </div>
+          </div>
+          <div class="navbar-menu">
+            <i class="fa-solid fa-bars"></i>
           </div>
         </nav>
         <div class="end-a-div">
@@ -46,319 +51,320 @@
             <a href="#">Mechanic</a>
             <a href="#">Plumber</a>
             <a href="#">Electrician</a>
+            <a href="#">Carpenter</a>
           </div>
         </div>
       </div>
+      <header class="header">
+        <h1>These Are Our Valuable Partner Companies</h1>
+        <p>
+          We collaborate with trusted organizations across multiple industries
+          to deliver high-quality construction, maintenance, and development
+          solutions.
+        </p>
+
+        <p>
+          Our partners specialize in various fields including construction, real
+          estate, plumbing, carpentry, building materials, and electrical
+          services.
+        </p>
+      </header>
+
+      <main>
+        <section class="category">
+          <h2 class="category-title">Construction Companies</h2>
+
+          <div class="company-grid">
+            <article class="company-card">
+              <img src="../assets/company/const-comp-1.png" />
+              <h3>Skyline Constructions</h3>
+              <div class="domain">Construction</div>
+              <ul class="details">
+                <li><strong>Projects:</strong> 48</li>
+                <li><strong>Experience:</strong> 18 Years</li>
+              </ul>
+              <label>Progress</label>
+              <div class="progress-bar">
+                <div class="progress" style="width: 82%"></div>
+              </div>
+            </article>
+
+            <article class="company-card">
+              <img src="../assets/company/const-comp-2.png" />
+              <h3>BuildPro Engineering</h3>
+              <div class="domain">Civil & Construction</div>
+              <ul class="details">
+                <li><strong>Projects:</strong> 67</li>
+                <li><strong>Experience:</strong> 22 Years</li>
+              </ul>
+              <label>Progress</label>
+              <div class="progress-bar">
+                <div class="progress" style="width: 91%"></div>
+              </div>
+            </article>
+
+            <article class="company-card">
+              <img src="../assets/company/const-comp-3.png" />
+              <h3>Urban Constructors</h3>
+              <div class="domain">Infrastructure</div>
+              <ul class="details">
+                <li><strong>Projects:</strong> 40</li>
+                <li><strong>Experience:</strong> 15 Years</li>
+              </ul>
+              <label>Progress</label>
+              <div class="progress-bar">
+                <div class="progress" style="width: 75%"></div>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <!-- REAL ESTATE -->
+        <section class="category">
+          <h2 class="category-title">Real Estate Companies</h2>
+
+          <div class="company-grid">
+            <article class="company-card">
+              <img src="../assets/company/real-es-1.png" />
+              <h3>Urban Estate Developers</h3>
+              <div class="domain">Real Estate</div>
+              <ul class="details">
+                <li><strong>Projects:</strong> 34</li>
+                <li><strong>Experience:</strong> 10 Years</li>
+              </ul>
+              <label>Performance</label>
+              <div class="progress-bar">
+                <div class="progress" style="width: 67%"></div>
+              </div>
+            </article>
+
+            <article class="company-card">
+              <img src="../assets/company/real-es-2.png" />
+              <h3>Prime Property Group</h3>
+              <div class="domain">Housing & Commercial</div>
+              <ul class="details">
+                <li><strong>Projects:</strong> 50+</li>
+                <li><strong>Experience:</strong> 14 Years</li>
+              </ul>
+              <label>Performance</label>
+              <div class="progress-bar">
+                <div class="progress" style="width: 80%"></div>
+              </div>
+            </article>
+
+            <article class="company-card">
+              <img src="../assets/company/real-es-3.png" />
+              <h3>MetroLand Developers</h3>
+              <div class="domain">Commercial Developments</div>
+              <ul class="details">
+                <li><strong>Projects:</strong> 28</li>
+                <li><strong>Experience:</strong> 9 Years</li>
+              </ul>
+              <label>Performance</label>
+              <div class="progress-bar">
+                <div class="progress" style="width: 72%"></div>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <!-- PLUMBING & SANITARY -->
+        <section class="category">
+          <h2 class="category-title">Plumbing & Sanitary Companies</h2>
+
+          <div class="company-grid">
+            <article class="company-card">
+              <img src="../assets/company/santary-1.png" />
+              <h3>AquaFlow Plumbing</h3>
+              <div class="domain">Plumbing Services</div>
+              <ul class="details">
+                <li><strong>Clients:</strong> 500+</li>
+                <li><strong>Experience:</strong> 12 Years</li>
+              </ul>
+              <label>Service Quality</label>
+              <div class="progress-bar">
+                <div class="progress" style="width: 85%"></div>
+              </div>
+            </article>
+
+            <article class="company-card">
+              <img src="../assets/company/santary-2.png" />
+              <h3>Sanitex Solutions</h3>
+              <div class="domain">Sanitary Installations</div>
+              <ul class="details">
+                <li><strong>Projects:</strong> 200+</li>
+                <li><strong>Experience:</strong> 10 Years</li>
+              </ul>
+              <label>Service Quality</label>
+              <div class="progress-bar">
+                <div class="progress" style="width: 78%"></div>
+              </div>
+            </article>
+
+            <article class="company-card">
+              <img src="../assets/company/santary-3.png" />
+              <h3>PipeMaster Engineering</h3>
+              <div class="domain">Pipe Fitting & Repair</div>
+              <ul class="details">
+                <li><strong>Projects:</strong> 120+</li>
+                <li><strong>Experience:</strong> 8 Years</li>
+              </ul>
+              <label>Service Quality</label>
+              <div class="progress-bar">
+                <div class="progress" style="width: 72%"></div>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <!-- CARPENTRY -->
+        <section class="category">
+          <h2 class="category-title">Carpentry Companies</h2>
+
+          <div class="company-grid">
+            <article class="company-card">
+              <img src="../assets/company/carpent-1.png" />
+              <h3>WoodCraft Carpentry</h3>
+              <div class="domain">Woodwork</div>
+              <ul class="details">
+                <li><strong>Projects:</strong> 300+</li>
+                <li><strong>Experience:</strong> 16 Years</li>
+              </ul>
+              <label>Quality</label>
+              <div class="progress-bar">
+                <div class="progress" style="width: 88%"></div>
+              </div>
+            </article>
+
+            <article class="company-card">
+              <img src="../assets/company/carpent-2.png" />
+              <h3>Crafted Homes Carpentry</h3>
+              <div class="domain">Furniture & Custom Wood</div>
+              <ul class="details">
+                <li><strong>Projects:</strong> 180+</li>
+                <li><strong>Experience:</strong> 10 Years</li>
+              </ul>
+              <label>Quality</label>
+              <div class="progress-bar">
+                <div class="progress" style="width: 82%"></div>
+              </div>
+            </article>
+
+            <article class="company-card">
+              <img src="../assets/company/carpent-3.png" />
+              <h3>OakLine Creations</h3>
+              <div class="domain">Custom Carpentry</div>
+              <ul class="details">
+                <li><strong>Projects:</strong> 140+</li>
+                <li><strong>Experience:</strong> 9 Years</li>
+              </ul>
+              <label>Quality</label>
+              <div class="progress-bar">
+                <div class="progress" style="width: 76%"></div>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <!--  BUILDING MATERIALS -->
+
+        <section class="category">
+          <h2 class="category-title">Building Materials Companies</h2>
+
+          <div class="company-grid">
+            <article class="company-card">
+              <img src="../assets/company/material-1.png" />
+              <h3>StrongMix Cement</h3>
+              <div class="domain">Construction Materials</div>
+              <ul class="details">
+                <li><strong>Distribution:</strong> 200+ cities</li>
+                <li><strong>Experience:</strong> 20 Years</li>
+              </ul>
+              <label>Quality</label>
+              <div class="progress-bar">
+                <div class="progress" style="width: 89%"></div>
+              </div>
+            </article>
+
+            <article class="company-card">
+              <img src="../assets/company/material-2.png" />
+              <h3>RedStone Bricks</h3>
+              <div class="domain">Construction Bricks</div>
+              <ul class="details">
+                <li><strong>Factories:</strong> 12</li>
+                <li><strong>Experience:</strong> 14 Years</li>
+              </ul>
+              <label>Quality</label>
+              <div class="progress-bar">
+                <div class="progress" style="width: 80%"></div>
+              </div>
+            </article>
+
+            <article class="company-card">
+              <img src="../assets/company/material-3.png" />
+              <h3>SteelMax Industries</h3>
+              <div class="domain">Steel Manufacturing</div>
+              <ul class="details">
+                <li><strong>Plants:</strong> 6</li>
+                <li><strong>Experience:</strong> 18 Years</li>
+              </ul>
+              <label>Quality</label>
+              <div class="progress-bar">
+                <div class="progress" style="width: 83%"></div>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <!--  ELECTRICAL -->
+        <section class="category">
+          <h2 class="category-title">Electrical Companies</h2>
+
+          <div class="company-grid">
+            <article class="company-card">
+              <img src="../assets/company/electric-repair.png" />
+              <h3>ElectroFix Services</h3>
+              <div class="domain">Electrical Repair</div>
+              <ul class="details">
+                <li><strong>Clients:</strong> 350+</li>
+                <li><strong>Experience:</strong> 12 Years</li>
+              </ul>
+              <label>Efficiency</label>
+              <div class="progress-bar">
+                <div class="progress" style="width: 81%"></div>
+              </div>
+            </article>
+
+            <article class="company-card">
+              <img src="../assets/company/system-install.png" />
+              <h3>PowerLine Electric</h3>
+              <div class="domain">Electrical Installation</div>
+              <ul class="details">
+                <li><strong>Projects:</strong> 120+</li>
+                <li><strong>Experience:</strong> 15 Years</li>
+              </ul>
+              <label>Efficiency</label>
+              <div class="progress-bar">
+                <div class="progress" style="width: 90%"></div>
+              </div>
+            </article>
+
+            <article class="company-card">
+              <img src="../assets/company/elec-system.png" />
+              <h3>VoltTech Engineering</h3>
+              <div class="domain">Electrical Systems</div>
+              <ul class="details">
+                <li><strong>Projects:</strong> 95+</li>
+                <li><strong>Experience:</strong> 10 Years</li>
+              </ul>
+              <label>Efficiency</label>
+              <div class="progress-bar">
+                <div class="progress" style="width: 77%"></div>
+              </div>
+            </article>
+          </div>
+        </section>
+      </main>
     </div>
-    <header class="header">
-      <h1>These Are Our Valuable Partner Companies</h1>
-      <p>
-        We collaborate with trusted organizations across multiple industries to
-        deliver high-quality construction, maintenance, and development
-        solutions.
-      </p>
-
-      <p>
-        Our partners specialize in various fields including construction, real
-        estate, plumbing, carpentry, building materials, and electrical
-        services.
-      </p>
-    </header>
-
-    <main>
-      <section class="category">
-        <h2 class="category-title">Construction Companies</h2>
-
-        <div class="company-grid">
-          <article class="company-card">
-            <img src="../assets/company/const-comp-1.png" />
-            <h3>Skyline Constructions</h3>
-            <div class="domain">Construction</div>
-            <ul class="details">
-              <li><strong>Projects:</strong> 48</li>
-              <li><strong>Experience:</strong> 18 Years</li>
-            </ul>
-            <label>Progress</label>
-            <div class="progress-bar">
-              <div class="progress" style="width: 82%"></div>
-            </div>
-          </article>
-
-          <article class="company-card">
-            <img src="../assets/company/const-comp-2.png" />
-            <h3>BuildPro Engineering</h3>
-            <div class="domain">Civil & Construction</div>
-            <ul class="details">
-              <li><strong>Projects:</strong> 67</li>
-              <li><strong>Experience:</strong> 22 Years</li>
-            </ul>
-            <label>Progress</label>
-            <div class="progress-bar">
-              <div class="progress" style="width: 91%"></div>
-            </div>
-          </article>
-
-          <article class="company-card">
-            <img src="../assets/company/const-comp-3.png" />
-            <h3>Urban Constructors</h3>
-            <div class="domain">Infrastructure</div>
-            <ul class="details">
-              <li><strong>Projects:</strong> 40</li>
-              <li><strong>Experience:</strong> 15 Years</li>
-            </ul>
-            <label>Progress</label>
-            <div class="progress-bar">
-              <div class="progress" style="width: 75%"></div>
-            </div>
-          </article>
-        </div>
-      </section>
-
-      <!-- REAL ESTATE -->
-      <section class="category">
-        <h2 class="category-title">Real Estate Companies</h2>
-
-        <div class="company-grid">
-          <article class="company-card">
-            <img src="../assets/company/real-es-1.png" />
-            <h3>Urban Estate Developers</h3>
-            <div class="domain">Real Estate</div>
-            <ul class="details">
-              <li><strong>Projects:</strong> 34</li>
-              <li><strong>Experience:</strong> 10 Years</li>
-            </ul>
-            <label>Performance</label>
-            <div class="progress-bar">
-              <div class="progress" style="width: 67%"></div>
-            </div>
-          </article>
-
-          <article class="company-card">
-            <img src="../assets/company/real-es-2.png" />
-            <h3>Prime Property Group</h3>
-            <div class="domain">Housing & Commercial</div>
-            <ul class="details">
-              <li><strong>Projects:</strong> 50+</li>
-              <li><strong>Experience:</strong> 14 Years</li>
-            </ul>
-            <label>Performance</label>
-            <div class="progress-bar">
-              <div class="progress" style="width: 80%"></div>
-            </div>
-          </article>
-
-          <article class="company-card">
-            <img src="../assets/company/real-es-3.png" />
-            <h3>MetroLand Developers</h3>
-            <div class="domain">Commercial Developments</div>
-            <ul class="details">
-              <li><strong>Projects:</strong> 28</li>
-              <li><strong>Experience:</strong> 9 Years</li>
-            </ul>
-            <label>Performance</label>
-            <div class="progress-bar">
-              <div class="progress" style="width: 72%"></div>
-            </div>
-          </article>
-        </div>
-      </section>
-
-      <!-- PLUMBING & SANITARY -->
-      <section class="category">
-        <h2 class="category-title">Plumbing & Sanitary Companies</h2>
-
-        <div class="company-grid">
-          <article class="company-card">
-            <img src="../assets/company/santary-1.png" />
-            <h3>AquaFlow Plumbing</h3>
-            <div class="domain">Plumbing Services</div>
-            <ul class="details">
-              <li><strong>Clients:</strong> 500+</li>
-              <li><strong>Experience:</strong> 12 Years</li>
-            </ul>
-            <label>Service Quality</label>
-            <div class="progress-bar">
-              <div class="progress" style="width: 85%"></div>
-            </div>
-          </article>
-
-          <article class="company-card">
-            <img src="../assets/company/santary-2.png" />
-            <h3>Sanitex Solutions</h3>
-            <div class="domain">Sanitary Installations</div>
-            <ul class="details">
-              <li><strong>Projects:</strong> 200+</li>
-              <li><strong>Experience:</strong> 10 Years</li>
-            </ul>
-            <label>Service Quality</label>
-            <div class="progress-bar">
-              <div class="progress" style="width: 78%"></div>
-            </div>
-          </article>
-
-          <article class="company-card">
-            <img src="../assets/company/santary-3.png" />
-            <h3>PipeMaster Engineering</h3>
-            <div class="domain">Pipe Fitting & Repair</div>
-            <ul class="details">
-              <li><strong>Projects:</strong> 120+</li>
-              <li><strong>Experience:</strong> 8 Years</li>
-            </ul>
-            <label>Service Quality</label>
-            <div class="progress-bar">
-              <div class="progress" style="width: 72%"></div>
-            </div>
-          </article>
-        </div>
-      </section>
-
-      <!-- CARPENTRY -->
-      <section class="category">
-        <h2 class="category-title">Carpentry Companies</h2>
-
-        <div class="company-grid">
-          <article class="company-card">
-            <img src="../assets/company/carpent-1.png" />
-            <h3>WoodCraft Carpentry</h3>
-            <div class="domain">Woodwork</div>
-            <ul class="details">
-              <li><strong>Projects:</strong> 300+</li>
-              <li><strong>Experience:</strong> 16 Years</li>
-            </ul>
-            <label>Quality</label>
-            <div class="progress-bar">
-              <div class="progress" style="width: 88%"></div>
-            </div>
-          </article>
-
-          <article class="company-card">
-            <img src="../assets/company/carpent-2.png" />
-            <h3>Crafted Homes Carpentry</h3>
-            <div class="domain">Furniture & Custom Wood</div>
-            <ul class="details">
-              <li><strong>Projects:</strong> 180+</li>
-              <li><strong>Experience:</strong> 10 Years</li>
-            </ul>
-            <label>Quality</label>
-            <div class="progress-bar">
-              <div class="progress" style="width: 82%"></div>
-            </div>
-          </article>
-
-          <article class="company-card">
-            <img src="../assets/company/carpent-3.png" />
-            <h3>OakLine Creations</h3>
-            <div class="domain">Custom Carpentry</div>
-            <ul class="details">
-              <li><strong>Projects:</strong> 140+</li>
-              <li><strong>Experience:</strong> 9 Years</li>
-            </ul>
-            <label>Quality</label>
-            <div class="progress-bar">
-              <div class="progress" style="width: 76%"></div>
-            </div>
-          </article>
-        </div>
-      </section>
-
-      <!--  BUILDING MATERIALS -->
-
-      <section class="category">
-        <h2 class="category-title">Building Materials Companies</h2>
-
-        <div class="company-grid">
-          <article class="company-card">
-            <img src="../assets/company/material-1.png" />
-            <h3>StrongMix Cement</h3>
-            <div class="domain">Construction Materials</div>
-            <ul class="details">
-              <li><strong>Distribution:</strong> 200+ cities</li>
-              <li><strong>Experience:</strong> 20 Years</li>
-            </ul>
-            <label>Quality</label>
-            <div class="progress-bar">
-              <div class="progress" style="width: 89%"></div>
-            </div>
-          </article>
-
-          <article class="company-card">
-            <img src="../assets/company/material-2.png" />
-            <h3>RedStone Bricks</h3>
-            <div class="domain">Construction Bricks</div>
-            <ul class="details">
-              <li><strong>Factories:</strong> 12</li>
-              <li><strong>Experience:</strong> 14 Years</li>
-            </ul>
-            <label>Quality</label>
-            <div class="progress-bar">
-              <div class="progress" style="width: 80%"></div>
-            </div>
-          </article>
-
-          <article class="company-card">
-            <img src="../assets/company/material-3.png" />
-            <h3>SteelMax Industries</h3>
-            <div class="domain">Steel Manufacturing</div>
-            <ul class="details">
-              <li><strong>Plants:</strong> 6</li>
-              <li><strong>Experience:</strong> 18 Years</li>
-            </ul>
-            <label>Quality</label>
-            <div class="progress-bar">
-              <div class="progress" style="width: 83%"></div>
-            </div>
-          </article>
-        </div>
-      </section>
-
-      <!--  ELECTRICAL -->
-      <section class="category">
-        <h2 class="category-title">Electrical Companies</h2>
-
-        <div class="company-grid">
-          <article class="company-card">
-            <img src="../assets/company/electric-repair.png" />
-            <h3>ElectroFix Services</h3>
-            <div class="domain">Electrical Repair</div>
-            <ul class="details">
-              <li><strong>Clients:</strong> 350+</li>
-              <li><strong>Experience:</strong> 12 Years</li>
-            </ul>
-            <label>Efficiency</label>
-            <div class="progress-bar">
-              <div class="progress" style="width: 81%"></div>
-            </div>
-          </article>
-
-          <article class="company-card">
-            <img src="../assets/company/system-install.png" />
-            <h3>PowerLine Electric</h3>
-            <div class="domain">Electrical Installation</div>
-            <ul class="details">
-              <li><strong>Projects:</strong> 120+</li>
-              <li><strong>Experience:</strong> 15 Years</li>
-            </ul>
-            <label>Efficiency</label>
-            <div class="progress-bar">
-              <div class="progress" style="width: 90%"></div>
-            </div>
-          </article>
-
-          <article class="company-card">
-            <img src="../assets/company/elec-system.png" />
-            <h3>VoltTech Engineering</h3>
-            <div class="domain">Electrical Systems</div>
-            <ul class="details">
-              <li><strong>Projects:</strong> 95+</li>
-              <li><strong>Experience:</strong> 10 Years</li>
-            </ul>
-            <label>Efficiency</label>
-            <div class="progress-bar">
-              <div class="progress" style="width: 77%"></div>
-            </div>
-          </article>
-        </div>
-      </section>
-    </main>
   </body>
 </html>
