@@ -246,7 +246,9 @@
           </div>
           <div class="projects-grid">
             <div class="project-container">
-              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-project-prev">
+                <i class="fa-solid fa-chevron-left"></i>
+              </div>
               <div class="project-swipe swiper">
                 <div class="swiper-wrapper">
                   <div class="project-card swiper-slide">
@@ -343,7 +345,9 @@
                 </div>
                 <div class="swiper-pagination" style="position: static"></div>
               </div>
-              <div class="swiper-button-next"></div>
+              <div class="swiper-button-project-next">
+                <i class="fa-solid fa-chevron-right"></i>
+              </div>
             </div>
           </div>
           <div class="projects-cta">
@@ -363,7 +367,9 @@
           </div>
           <div class="testimonials-grid">
             <div class="main-container">
-              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-test-prev">
+                <i class="fa-solid fa-chevron-left"></i>
+              </div>
               <div class="review-swipe swiper">
                 <div class="swiper-wrapper">
                   <div class="testimonial-card swiper-slide">
@@ -458,7 +464,9 @@
                 </div>
                 <div class="swiper-pagination" style="position: static"></div>
               </div>
-              <div class="swiper-button-next"></div>
+              <div class="swiper-button-test-next">
+                <i class="fa-solid fa-chevron-right"></i>
+              </div>
             </div>
           </div>
         </div>
@@ -538,8 +546,8 @@
           clickable: true,
         },
         navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
+          nextEl: ".swiper-button-project-next",
+          prevEl: ".swiper-button-project-prev",
         },
         breakpoints: {
           640: { slidesPerView: 1 },
@@ -561,8 +569,8 @@
           clickable: true,
         },
         navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
+          nextEl: ".swiper-button-test-next",
+          prevEl: ".swiper-button-test-prev",
         },
 
         breakpoints: {

@@ -249,7 +249,9 @@
           </div>
           <div class="team-grid">
             <div class="team-container">
-              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-team-prev">
+                <i class="fa-solid fa-chevron-left"></i>
+              </div>
               <div class="team-swipe swiper">
                 <div class="swiper-wrapper">
                   <div class="team-member swiper-slide">
@@ -323,7 +325,9 @@
                 </div>
                 <div class="swiper-pagination" style="position: static"></div>
               </div>
-              <div class="swiper-button-next"></div>
+              <div class="swiper-button-team-next">
+                <i class="fa-solid fa-chevron-right"></i>
+              </div>
             </div>
           </div>
         </div>
@@ -364,7 +368,9 @@
             </p>
           </div>
           <div class="cert-card-container">
-            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-cert-prev">
+              <i class="fa-solid fa-chevron-left"></i>
+            </div>
             <div class="main-swipe swiper">
               <div class="swiper-wrapper">
                 <div class="cert-item swiper-slide">
@@ -410,7 +416,9 @@
               </div>
               <div class="swiper-pagination" style="position: static"></div>
             </div>
-            <div class="swiper-button-next"></div>
+            <div class="swiper-button-cert-next">
+              <i class="fa-solid fa-chevron-right"></i>
+            </div>
           </div>
         </div>
       </section>
@@ -490,8 +498,8 @@
           clickable: true,
         },
         navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
+          nextEl: ".swiper-button-cert-next",
+          prevEl: ".swiper-button-cert-prev",
         },
 
         // Responsive breakpoints
@@ -513,8 +521,8 @@
           clickable: true,
         },
         navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
+          nextEl: ".swiper-button-team-next",
+          prevEl: ".swiper-button-team-prev",
         },
 
         // Responsive breakpoints

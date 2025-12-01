@@ -324,9 +324,25 @@ a {
 .project-container {
   display: flex;
   justify-content: center;
+  align-items: center;
   width: 100%;
   gap: 1rem;
   padding: 0.25rem;
+}
+
+.swiper-button-project-next,
+.swiper-button-project-prev {
+  position: relative !important;
+  background: #ebedf0;
+  border-radius: 50%;
+  color: #86c7ed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.25rem;
+  font-size: 1.5rem;
+  width: 3rem;
+  height: 3rem;
 }
 
 .project-card:hover {
@@ -403,6 +419,7 @@ a {
 .main-container {
   display: flex;
   justify-content: center;
+  align-items: center;
   width: 100%;
   gap: 1rem;
   padding: 0.25rem;
@@ -418,8 +435,8 @@ a {
   padding: 0.25rem;
 }
 
-.swiper-button-next,
-.swiper-button-prev {
+.swiper-button-test-next,
+.swiper-button-test-prev {
   position: relative !important;
   background: #ebedf0;
   border-radius: 50%;
@@ -428,7 +445,9 @@ a {
   justify-content: center;
   align-items: center;
   padding: 0.25rem;
-  font-size: 0.8rem;
+  font-size: 1.5rem;
+  width: 3rem;
+  height: 3rem;
 }
 
 .testimonial-card {
@@ -535,8 +554,10 @@ a {
   }
 }
 @media (max-width: 780px) {
-  .swiper-button-next,
-  .swiper-button-prev {
+  .swiper-button-project-next,
+  .swiper-button-project-prev,
+  .swiper-button-test-next,
+  .swiper-button-test-prev {
     display: none !important;
   }
 }
@@ -591,8 +612,10 @@ a {
     width: 100%;
   }
 
-  .swiper-button-next,
-  .swiper-button-prev {
+  .swiper-button-project-next,
+  .swiper-button-project-prev,
+  .swiper-button-test-next,
+  .swiper-button-test-prev {
     display: none !important;
   }
 }
