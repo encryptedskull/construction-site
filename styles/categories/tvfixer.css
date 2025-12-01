@@ -1,0 +1,19 @@
+.hero-div.categories-hero {
+  background-image: url("../../assets/tvfixer-hero.jpg");
+  background-size: cover;
+  background-position: center;
+  /* color: white; */
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero-div.categories-hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero-div.categories-hero p {
+  font-size: 18px;
+  max-width: 600px;
+  margin: 0 auto;
+}
