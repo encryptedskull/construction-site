@@ -85,8 +85,14 @@ body {
   padding: 1rem;
   position: relative;
 }
-.swiper-button-next,
-.swiper-button-prev {
+.swiper-button-electrician-next,
+.swiper-button-electrician-prev,
+.swiper-button-plumber-next,
+.swiper-button-plumber-prev,
+.swiper-button-carpenter-next,
+.swiper-button-carpenter-prev,
+.swiper-button-mason-next,
+.swiper-button-mason-prev {
   position: relative !important;
   background: #ebedf0;
   border-radius: 50%;
@@ -95,6 +101,9 @@ body {
   justify-content: center;
   align-items: center;
   padding: 0.25rem;
+  font-size: 1.5rem;
+  width: 3rem;
+  height: 3rem;
 }
 .main-swipe {
   width: 100%;
@@ -208,6 +217,16 @@ body {
   .category-section {
     padding: 1rem;
   }
+  .swiper-button-electrician-next,
+  .swiper-button-electrician-prev,
+  .swiper-button-plumber-next,
+  .swiper-button-plumber-prev,
+  .swiper-button-carpenter-next,
+  .swiper-button-carpenter-prev,
+  .swiper-button-mason-next,
+  .swiper-button-mason-prev {
+    display: none;
+  }
 }
 
 @media (max-width: 480px) {
@@ -244,11 +263,14 @@ body {
   .worker-card {
     width: 100%;
   }
-  .swiper-button-next,
-  .swiper-button-prev {
-    height: 2rem;
-    width: 2rem;
-    font-size: 1rem;
-    background: transparent;
+  .swiper-button-electrician-next,
+  .swiper-button-electrician-prev,
+  .swiper-button-plumber-next,
+  .swiper-button-plumber-prev,
+  .swiper-button-carpenter-next,
+  .swiper-button-carpenter-prev,
+  .swiper-button-mason-next,
+  .swiper-button-mason-prev {
+    display: none;
   }
 }
