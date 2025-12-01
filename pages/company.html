@@ -78,8 +78,10 @@
           <div class="category-div">
             <h2 class="category-title">Construction Companies</h2>
             <div class="company-container">
-              <div class="swiper-button-prev"></div>
-              <div class="company-swipe swiper">
+              <div class="swiper-button-construction-prev">
+                <i class="fa-solid fa-chevron-left"></i>
+              </div>
+              <div class="construction-swipe swiper">
                 <div class="swiper-wrapper">
                   <article class="company-card swiper-slide">
                     <img src="../assets/company/const-comp-1.png" />
@@ -146,7 +148,9 @@
                 </div>
                 <div class="swiper-pagination" style="position: static"></div>
               </div>
-              <div class="swiper-button-next"></div>
+              <div class="swiper-button-construction-next">
+                <i class="fa-solid fa-chevron-right"></i>
+              </div>
             </div>
           </div>
         </section>
@@ -155,8 +159,10 @@
           <div class="category-div">
             <h2 class="category-title">Real Estate Companies</h2>
             <div class="company-container">
-              <div class="swiper-button-prev"></div>
-              <div class="company-swipe swiper">
+              <div class="swiper-button-real-prev">
+                <i class="fa-solid fa-chevron-left"></i>
+              </div>
+              <div class="real-swipe swiper">
                 <div class="swiper-wrapper">
                   <article class="company-card swiper-slide">
                     <img src="../assets/company/real-es-1.png" />
@@ -223,7 +229,9 @@
                 </div>
                 <div class="swiper-pagination" style="position: static"></div>
               </div>
-              <div class="swiper-button-next"></div>
+              <div class="swiper-button-real-next">
+                <i class="fa-solid fa-chevron-right"></i>
+              </div>
             </div>
           </div>
         </section>
@@ -232,8 +240,10 @@
           <div class="category-div">
             <h2 class="category-title">Plumbing & Sanitary Companies</h2>
             <div class="company-container">
-              <div class="swiper-button-prev"></div>
-              <div class="company-swipe swiper">
+              <div class="swiper-button-plumb-prev">
+                <i class="fa-solid fa-chevron-left"></i>
+              </div>
+              <div class="plumb-swipe swiper">
                 <div class="swiper-wrapper">
                   <article class="company-card swiper-slide">
                     <img src="../assets/company/santary-1.png" />
@@ -300,17 +310,21 @@
                 </div>
                 <div class="swiper-pagination" style="position: static"></div>
               </div>
-              <div class="swiper-button-next"></div>
+              <div class="swiper-button-plumb-next">
+                <i class="fa-solid fa-chevron-right"></i>
+              </div>
             </div>
           </div>
         </section>
 
         <section class="category">
           <div class="category-div">
-            <h2 class="category-title"></h2>
+            <h2 class="category-title">Carpentry</h2>
             <div class="company-container">
-              <div class="swiper-button-prev"></div>
-              <div class="company-swipe swiper">
+              <div class="swiper-button-carpent-prev">
+                <i class="fa-solid fa-chevron-left"></i>
+              </div>
+              <div class="carpent-swipe swiper">
                 <div class="swiper-wrapper">
                   <article class="company-card swiper-slide">
                     <img src="../assets/company/carpent-1.png" />
@@ -377,7 +391,9 @@
                 </div>
                 <div class="swiper-pagination" style="position: static"></div>
               </div>
-              <div class="swiper-button-next"></div>
+              <div class="swiper-button-carpent-next">
+                <i class="fa-solid fa-chevron-right"></i>
+              </div>
             </div>
           </div>
         </section>
@@ -386,8 +402,10 @@
           <div class="category-div">
             <h2 class="category-title">Building Materials Companies</h2>
             <div class="company-container">
-              <div class="swiper-button-prev"></div>
-              <div class="company-swipe swiper">
+              <div class="swiper-button-building-prev">
+                <i class="fa-solid fa-chevron-left"></i>
+              </div>
+              <div class="building-swipe swiper">
                 <div class="swiper-wrapper">
                   <article class="company-card swiper-slide">
                     <img src="../assets/company/material-1.png" />
@@ -454,7 +472,9 @@
                 </div>
                 <div class="swiper-pagination" style="position: static"></div>
               </div>
-              <div class="swiper-button-next"></div>
+              <div class="swiper-button-building-next">
+                <i class="fa-solid fa-chevron-right"></i>
+              </div>
             </div>
           </div>
         </section>
@@ -463,8 +483,10 @@
           <div class="category-div">
             <h2 class="category-title">Electrical Companies</h2>
             <div class="company-container">
-              <div class="swiper-button-prev"></div>
-              <div class="company-swipe swiper">
+              <div class="swiper-button-electric-prev">
+                <i class="fa-solid fa-chevron-left"></i>
+              </div>
+              <div class="electric-swipe swiper">
                 <div class="swiper-wrapper">
                   <article class="company-card swiper-slide">
                     <img src="../assets/company/electric-repair.png" />
@@ -530,7 +552,9 @@
                 </div>
                 <div class="swiper-pagination" style="position: static"></div>
               </div>
-              <div class="swiper-button-next"></div>
+              <div class="swiper-button-electric-next">
+                <i class="fa-solid fa-chevron-right"></i>
+              </div>
             </div>
           </div>
         </section>
@@ -594,6 +618,144 @@
         navigation: {
           nextEl: ".swiper-button-next",
           prevEl: ".swiper-button-prev",
+        },
+
+        // Responsive breakpoints
+        breakpoints: {
+          640: { slidesPerView: 1 },
+          768: { slidesPerView: 2 },
+          1024: { slidesPerView: 3 },
+        },
+      });
+      const constSwiper = new Swiper(".construction-swipe", {
+        slidesPerView: 1,
+        spaceBetween: 20,
+        loop: true,
+        autoplay: {
+          delay: 3000,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-construction-next",
+          prevEl: ".swiper-button-construction-prev",
+        },
+
+        // Responsive breakpoints
+        breakpoints: {
+          640: { slidesPerView: 1 },
+          768: { slidesPerView: 2 },
+          1024: { slidesPerView: 3 },
+        },
+      });
+      const realSwiper = new Swiper(".real-swipe", {
+        slidesPerView: 1,
+        spaceBetween: 20,
+        loop: true,
+        autoplay: {
+          delay: 3000,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-real-next",
+          prevEl: ".swiper-button-real-prev",
+        },
+
+        // Responsive breakpoints
+        breakpoints: {
+          640: { slidesPerView: 1 },
+          768: { slidesPerView: 2 },
+          1024: { slidesPerView: 3 },
+        },
+      });
+      const plumbSwiper = new Swiper(".plumb-swipe", {
+        slidesPerView: 1,
+        spaceBetween: 20,
+        loop: true,
+        autoplay: {
+          delay: 3000,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-plumb-next",
+          prevEl: ".swiper-button-plumb-prev",
+        },
+
+        // Responsive breakpoints
+        breakpoints: {
+          640: { slidesPerView: 1 },
+          768: { slidesPerView: 2 },
+          1024: { slidesPerView: 3 },
+        },
+      });
+      const carpentSwiper = new Swiper(".carpent-swipe", {
+        slidesPerView: 1,
+        spaceBetween: 20,
+        loop: true,
+        autoplay: {
+          delay: 3000,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-carpent-next",
+          prevEl: ".swiper-button-carpent-prev",
+        },
+
+        // Responsive breakpoints
+        breakpoints: {
+          640: { slidesPerView: 1 },
+          768: { slidesPerView: 2 },
+          1024: { slidesPerView: 3 },
+        },
+      });
+      const electricSwiper = new Swiper(".electric-swipe", {
+        slidesPerView: 1,
+        spaceBetween: 20,
+        loop: true,
+        autoplay: {
+          delay: 3000,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-electric-next",
+          prevEl: ".swiper-button-electric-prev",
+        },
+
+        // Responsive breakpoints
+        breakpoints: {
+          640: { slidesPerView: 1 },
+          768: { slidesPerView: 2 },
+          1024: { slidesPerView: 3 },
+        },
+      });
+      const buildingSwiper = new Swiper(".building-swipe", {
+        slidesPerView: 1,
+        spaceBetween: 20,
+        loop: true,
+        autoplay: {
+          delay: 3000,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-building-next",
+          prevEl: ".swiper-button-building-prev",
         },
 
         // Responsive breakpoints
