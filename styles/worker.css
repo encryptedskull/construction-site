@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: #f8f9fa;
+  background-color: whitesmoke;
   color: #333;
   line-height: 1.6;
 }
@@ -29,7 +29,6 @@ body {
   color: white;
   text-align: center;
   padding: 3rem 1rem;
-  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.1);
 }
 
 .header h1 {
@@ -61,7 +60,6 @@ body {
   background: white;
   border-radius: 0.625rem;
   padding: 2rem;
-  box-shadow: 0 0.3125rem 0.9375rem rgba(0, 0, 0, 0.05);
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
@@ -131,7 +129,6 @@ body {
 
 .worker-card:hover {
   transform: translateY(-0.3125rem);
-  box-shadow: 0 0.625rem 1.5625rem rgba(0, 0, 0, 0.15);
 }
 
 .worker-photo {
