@@ -80,7 +80,7 @@
       <div class="outer-review">
         <div class="swiper-button-prev"></div>
 
-        <div class="review-container swiper">
+        <div class="service-container swiper">
           <div class="swiper-wrapper">
             <div class="card-slider-1 swiper-slide">
               <div class="icon-div">
@@ -365,6 +365,29 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
     <script>
       const swiper = new Swiper(".review-container", {
+        slidesPerView: 1,
+        spaceBetween: 20,
+        loop: true,
+        autoplay: {
+          delay: 3000,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+
+        // Responsive breakpoints
+        breakpoints: {
+          640: { slidesPerView: 1 },
+          768: { slidesPerView: 2 },
+          1024: { slidesPerView: 3 },
+        },
+      });
+      const serviceSwiper = new Swiper(".service-container", {
         slidesPerView: 1,
         spaceBetween: 20,
         loop: true,
