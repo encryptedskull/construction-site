@@ -553,6 +553,21 @@ body {
 @media (max-width: 1024px) {
   .testimonial {
     padding: 0.25rem;
+    height: 15rem;
+  }
+  .testimonial-author {
+    gap: 0.5rem;
+  }
+
+  .author-info h4 {
+    font-weight: 350;
+    color: var(--dark-color);
+    margin: 0 !important;
+  }
+  .author-info p {
+    color: var(--text-light);
+    font-size: 0.65rem;
+    margin: 0 !important;
   }
 }
 @media (max-width: 768px) {
