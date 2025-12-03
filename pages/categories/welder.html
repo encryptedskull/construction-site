@@ -13,13 +13,13 @@
       href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
     />
     <link rel="stylesheet" href="../../styles/styles.css" />
-    <link rel="stylesheet" href="../../styles/categories/tvfixer.css" />
+    <link rel="stylesheet" href="../../styles/categories/welder.css" />
   </head>
   <body>
     <!-- Header -->
     <div class="parent-div">
       <div class="flex-c-c notify-div">
-        <p class="">Notifications are displayed here</p>
+        <p class="">Get 10% off on your first welding project!</p>
       </div>
 
       <div class="nav-div">
@@ -52,7 +52,7 @@
             <div class="end-b-div">
               <a href="./tvfixer.html" target="_blank">TV Fixer</a>
               <a href="./constructor.html" target="_blank">Constructor</a>
-              <a href="#">Welder</a>
+              <a href="#" class="active">Welder</a>
               <a href="./mechanic.html" target="_blank">Mechanic</a>
               <a href="./plumber.html" target="_blank">Plumber</a>
               <a href="./electrician.html" target="_blank">Electrician</a>
@@ -61,12 +61,600 @@
           </div>
         </div>
       </div>
+
       <!-- Hero -->
-      <div class="hero-div categories-hero">
-        <h1>Welder</h1>
+      <div class="welder-hero">
+        <h1>Professional Welding Services</h1>
         <p>
-          Find skilled welders to join metal parts and structures efficiently.
+          Find skilled welders for all your metal fabrication and repair needs.
+          From structural welding to artistic metalwork, our certified welders
+          provide precision work with quality materials and safety compliance.
         </p>
+        <div class="hero-btns">
+          <a href="#booking" class="btn-primary">Book a Welder</a>
+          <a href="#services" class="btn-secondary">View Services</a>
+        </div>
+      </div>
+
+      <!-- Main Content -->
+      <div class="content-div">
+        <main class="welder-container">
+          <!-- Services Section -->
+          <section id="services" class="services-section">
+            <h2 class="section-title">Our Welding Services</h2>
+            <div class="services-grid">
+              <div class="service-card">
+                <div class="service-icon">
+                  <i class="fas fa-industry"></i>
+                </div>
+                <div class="service-content">
+                  <h3>Structural Welding</h3>
+                  <p>
+                    Professional structural steel welding for buildings,
+                    bridges, and industrial structures with certified welders
+                    and code compliance.
+                  </p>
+                  <button class="welder-btn">Book Service</button>
+                </div>
+              </div>
+
+              <div class="service-card">
+                <div class="service-icon">
+                  <i class="fas fa-car"></i>
+                </div>
+                <div class="service-content">
+                  <h3>Automotive Welding</h3>
+                  <p>
+                    Auto body repair, frame straightening, exhaust system
+                    welding, and custom automotive fabrication for cars, trucks,
+                    and motorcycles.
+                  </p>
+                  <button class="welder-btn">Book Service</button>
+                </div>
+              </div>
+
+              <div class="service-card">
+                <div class="service-icon">
+                  <i class="fas fa-home"></i>
+                </div>
+                <div class="service-content">
+                  <h3>Home & Fence Welding</h3>
+                  <p>
+                    Gate installation, fence repair, railing fabrication,
+                    balcony railings, and residential metalwork for your home.
+                  </p>
+                  <button class="welder-btn">Book Service</button>
+                </div>
+              </div>
+
+              <div class="service-card">
+                <div class="service-icon">
+                  <i class="fas fa-wrench"></i>
+                </div>
+                <div class="service-content">
+                  <h3>Pipe Welding</h3>
+                  <p>
+                    Pipe fitting, pipeline welding, plumbing system
+                    installation, and industrial pipe fabrication for various
+                    applications.
+                  </p>
+                  <button class="welder-btn">Book Service</button>
+                </div>
+              </div>
+
+              <div class="service-card">
+                <div class="service-icon">
+                  <i class="fas fa-hammer"></i>
+                </div>
+                <div class="service-content">
+                  <h3>Fabrication & Repair</h3>
+                  <p>
+                    Custom metal fabrication, machinery repair, equipment
+                    maintenance, and industrial component welding services.
+                  </p>
+                  <button class="welder-btn">Book Service</button>
+                </div>
+              </div>
+
+              <div class="service-card">
+                <div class="service-icon">
+                  <i class="fas fa-palette"></i>
+                </div>
+                <div class="service-content">
+                  <h3>Artistic Welding</h3>
+                  <p>
+                    Custom metal artwork, decorative gates, sculptures,
+                    furniture, and creative metal designs for residential and
+                    commercial spaces.
+                  </p>
+                  <button class="welder-btn">Book Service</button>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Welders Section -->
+          <section class="welders-section">
+            <h2 class="section-title">Certified Welders</h2>
+            <div class="welders-grid">
+              <div class="technician-swipe-main">
+                <div class="swiper-button-tech-prev">
+                  <i class="fas fa-chevron-left"></i>
+                </div>
+                <div class="tech-swipe swiper">
+                  <div class="swiper-wrapper">
+                    <div class="welder-card swiper-slide">
+                      <div class="welder-img">
+                        <i class="fas fa-hard-hat"></i>
+                      </div>
+                      <div class="tech-info">
+                        <h3 class="welder-name">Mike Johnson</h3>
+                        <div class="welder-rating">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star-half-alt"></i>
+                          <span> (4.6)</span>
+                        </div>
+                        <p class="welder-specialty">
+                          12+ years experience • Structural Welding Specialist
+                        </p>
+                        <button class="welder-btn">Hire Welder</button>
+                      </div>
+                    </div>
+                    <div class="welder-card swiper-slide">
+                      <div class="welder-img">
+                        <i class="fas fa-hard-hat"></i>
+                      </div>
+                      <div class="tech-info">
+                        <h3 class="welder-name">Carlos Rodriguez</h3>
+                        <div class="welder-rating">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <span> (5.0)</span>
+                        </div>
+                        <p class="welder-specialty">
+                          15+ years experience • Pipe Welding Expert
+                        </p>
+                        <button class="welder-btn">Hire Welder</button>
+                      </div>
+                    </div>
+
+                    <div class="welder-card swiper-slide">
+                      <div class="welder-img">
+                        <i class="fas fa-hard-hat"></i>
+                      </div>
+                      <div class="tech-info">
+                        <h3 class="welder-name">Sarah Wilson</h3>
+                        <div class="welder-rating">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <span> (4.9)</span>
+                        </div>
+                        <p class="welder-specialty">
+                          8+ years experience • Artistic & Custom Fabrication
+                        </p>
+                        <button class="welder-btn">Hire Welder</button>
+                      </div>
+                    </div>
+
+                    <div class="welder-card swiper-slide">
+                      <div class="welder-img">
+                        <i class="fas fa-hard-hat"></i>
+                      </div>
+                      <div class="tech-info">
+                        <h3 class="welder-name">James Miller</h3>
+                        <div class="welder-rating">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star-half-alt"></i>
+                          <span> (4.7)</span>
+                        </div>
+                        <p class="welder-specialty">
+                          10+ years experience • Automotive Welding Specialist
+                        </p>
+                        <button class="welder-btn">Hire Welder</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-pagination" style="position: static"></div>
+                </div>
+                <div class="swiper-button-tech-next">
+                  <i class="fas fa-chevron-right"></i>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Booking Section -->
+          <section id="booking" class="booking-section">
+            <h2 class="section-title">Book a Welding Service</h2>
+            <form class="booking-form">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="name">Full Name</label>
+                  <input
+                    type="text"
+                    id="name"
+                    class="form-control"
+                    placeholder="Enter your name"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="phone">Phone Number</label>
+                  <input
+                    type="tel"
+                    id="phone"
+                    class="form-control"
+                    placeholder="Enter your phone number"
+                    required
+                  />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="address">Project Location</label>
+                <input
+                  type="text"
+                  id="address"
+                  class="form-control"
+                  placeholder="Enter project address/location"
+                  required
+                />
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="service-type">Welding Service</label>
+                  <select id="service-type" class="form-control" required>
+                    <option value="">Select Service Type</option>
+                    <option value="structural">Structural Welding</option>
+                    <option value="automotive">Automotive Welding</option>
+                    <option value="home">Home & Fence Welding</option>
+                    <option value="pipe">Pipe Welding</option>
+                    <option value="fabrication">Fabrication & Repair</option>
+                    <option value="artistic">Artistic Welding</option>
+                    <option value="other">Other</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="material">Material Type</label>
+                  <select id="material" class="form-control" required>
+                    <option value="">Select Material</option>
+                    <option value="steel">Steel</option>
+                    <option value="stainless">Stainless Steel</option>
+                    <option value="aluminum">Aluminum</option>
+                    <option value="iron">Wrought Iron</option>
+                    <option value="mixed">Mixed Metals</option>
+                    <option value="other">Other</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="project-size">Project Size</label>
+                  <select id="project-size" class="form-control" required>
+                    <option value="">Select Project Size</option>
+                    <option value="small">Small (Under 2 hours)</option>
+                    <option value="medium">Medium (2-4 hours)</option>
+                    <option value="large">Large (4-8 hours)</option>
+                    <option value="xlarge">Extra Large (Multiple days)</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="urgency">Urgency</label>
+                  <select id="urgency" class="form-control" required>
+                    <option value="">Select Urgency</option>
+                    <option value="emergency">Emergency (Today)</option>
+                    <option value="urgent">Urgent (Within 2 days)</option>
+                    <option value="normal">Normal (Within 1 week)</option>
+                    <option value="flexible">Flexible (No rush)</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="description">Project Description</label>
+                <textarea
+                  id="description"
+                  class="form-control"
+                  rows="4"
+                  placeholder="Describe your welding project in detail (dimensions, purpose, special requirements)..."
+                ></textarea>
+              </div>
+
+              <button type="submit" class="submit-btn">
+                Get Welding Quote
+              </button>
+            </form>
+          </section>
+
+          <!-- Features Section -->
+          <section class="features-section">
+            <h2 class="section-title">Why Choose Our Welding Services</h2>
+            <div class="features-grid">
+              <div class="service-swipe-div">
+                <div class="swiper-button-service-prev">
+                  <i class="fas fa-chevron-left"></i>
+                </div>
+
+                <div class="service-swipe swiper">
+                  <div class="swiper-wrapper">
+                    <div class="feature-item swiper-slide">
+                      <div class="feature-icon">
+                        <i class="fas fa-certificate"></i>
+                      </div>
+                      <h3>Certified Welders</h3>
+                      <p>
+                        All our welders are certified with proper training and
+                        certification in various welding techniques.
+                      </p>
+                    </div>
+
+                    <div class="feature-item swiper-slide">
+                      <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                      </div>
+                      <h3>Safety First</h3>
+                      <p>
+                        Strict adherence to safety protocols and use of proper
+                        safety equipment on all projects.
+                      </p>
+                    </div>
+
+                    <div class="feature-item swiper-slide">
+                      <div class="feature-icon">
+                        <i class="fas fa-bolt"></i>
+                      </div>
+                      <h3>Mobile Service</h3>
+                      <p>
+                        On-site welding service - we come to your location with
+                        all necessary equipment.
+                      </p>
+                    </div>
+
+                    <div class="feature-item swiper-slide">
+                      <div class="feature-icon">
+                        <i class="fas fa-medal"></i>
+                      </div>
+                      <h3>Quality Materials</h3>
+                      <p>
+                        We use only high-quality welding rods, wires, and
+                        materials for durable results.
+                      </p>
+                    </div>
+
+                    <div class="feature-item swiper-slide">
+                      <div class="feature-icon">
+                        <i class="fas fa-tools"></i>
+                      </div>
+                      <h3>Advanced Equipment</h3>
+                      <p>
+                        State-of-the-art welding machines and tools for precise
+                        and efficient work.
+                      </p>
+                    </div>
+
+                    <div class="feature-item swiper-slide">
+                      <div class="feature-icon">
+                        <i class="fas fa-award"></i>
+                      </div>
+                      <h3>Guaranteed Work</h3>
+                      <p>
+                        All welding work comes with a satisfaction guarantee and
+                        warranty on materials.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="swiper-pagination" style="position: static"></div>
+                </div>
+                <div class="swiper-button-service-next">
+                  <i class="fas fa-chevron-right"></i>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Testimonials -->
+          <section class="testimonials-section">
+            <h2 class="section-title">What Our Clients Say</h2>
+            <div class="testimonial-slider">
+              <div class="testimonial-swipe-div">
+                <div class="swiper-button-test-prev">
+                  <i class="fas fa-chevron-left"></i>
+                </div>
+                <div class="testimonial-swipe swiper">
+                  <div class="swiper-wrapper">
+                    <!-- Testimonial 1 -->
+                    <div class="testimonial swiper-slide">
+                      <p class="testimonial-text">
+                        "Needed emergency repair on my truck's exhaust system.
+                        The welder came within 2 hours and did a perfect job.
+                        Strong, clean welds that have held up perfectly!"
+                      </p>
+                      <div class="testimonial-author">
+                        <div class="author-img">
+                          <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                          <h4>David Chen</h4>
+                          <p>Automotive Repair Client</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Testimonial 2 -->
+                    <div class="testimonial swiper-slide">
+                      <p class="testimonial-text">
+                        "Had a custom metal gate fabricated for our property.
+                        The welder understood exactly what we wanted and
+                        delivered a beautiful, sturdy gate that exceeded
+                        expectations."
+                      </p>
+                      <div class="testimonial-author">
+                        <div class="author-img">
+                          <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                          <h4>Maria Garcia</h4>
+                          <p>Homeowner</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Testimonial 3 -->
+                    <div class="testimonial swiper-slide">
+                      <p class="testimonial-text">
+                        "Structural welding for our warehouse expansion was done
+                        professionally and on schedule. The welders were skilled
+                        and safety-conscious throughout."
+                      </p>
+                      <div class="testimonial-author">
+                        <div class="author-img">
+                          <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                          <h4>Robert Johnson</h4>
+                          <p>Business Owner</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Testimonial 4 -->
+                    <div class="testimonial swiper-slide">
+                      <p class="testimonial-text">
+                        "Artistic welding for our restaurant's decorative
+                        elements was executed beautifully. The welder had great
+                        artistic sense and technical skill. Highly recommend!"
+                      </p>
+                      <div class="testimonial-author">
+                        <div class="author-img">
+                          <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                          <h4>Sarah Williams</h4>
+                          <p>Restaurant Owner</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Testimonial 5 -->
+                    <div class="testimonial swiper-slide">
+                      <p class="testimonial-text">
+                        "Pipe welding for our plumbing system was handled
+                        professionally. Clean, precise work that passed
+                        inspection without any issues. Great experience!"
+                      </p>
+                      <div class="testimonial-author">
+                        <div class="author-img">
+                          <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                          <h4>Michael Brown</h4>
+                          <p>Plumbing Project Client</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-pagination" style="position: static"></div>
+                </div>
+                <div class="swiper-button-test-next">
+                  <i class="fas fa-chevron-right"></i>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- FAQ Section -->
+          <section class="faq-section">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <div class="faq-container">
+              <div class="faq-item">
+                <div class="faq-question">
+                  <span>What types of welding do you offer?</span>
+                  <span class="faq-toggle">+</span>
+                </div>
+                <div class="faq-answer">
+                  <p>
+                    We offer MIG, TIG, Stick, and Flux-Cored arc welding for
+                    various materials including steel, stainless steel,
+                    aluminum, and more. Our welders are trained in multiple
+                    techniques to handle different project requirements.
+                  </p>
+                </div>
+              </div>
+
+              <div class="faq-item">
+                <div class="faq-question">
+                  <span>Do you provide mobile welding services?</span>
+                  <span class="faq-toggle">+</span>
+                </div>
+                <div class="faq-answer">
+                  <p>
+                    Yes, we offer mobile welding services and bring all
+                    necessary equipment to your location. Our mobile units are
+                    equipped with generators for sites without power, and we can
+                    work in various environments.
+                  </p>
+                </div>
+              </div>
+
+              <div class="faq-item">
+                <div class="faq-question">
+                  <span>How do you ensure weld quality?</span>
+                  <span class="faq-toggle">+</span>
+                </div>
+                <div class="faq-answer">
+                  <p>
+                    We follow strict quality control procedures including visual
+                    inspection, non-destructive testing when required, and use
+                    certified materials. Our welders are trained to meet
+                    industry standards and codes.
+                  </p>
+                </div>
+              </div>
+
+              <div class="faq-item">
+                <div class="faq-question">
+                  <span>Can you handle large industrial projects?</span>
+                  <span class="faq-toggle">+</span>
+                </div>
+                <div class="faq-answer">
+                  <p>
+                    Yes, we have experience with industrial-scale projects
+                    including structural steel fabrication, pipeline welding,
+                    and heavy equipment repair. We can provide multiple welders
+                    for large projects and work within tight deadlines.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- CTA Section -->
+          <section class="cta-section">
+            <h2>Need Professional Welding Services?</h2>
+            <p>
+              Our certified welders are ready to handle your metal fabrication
+              and repair projects with precision and expertise. Book a service
+              now and get 10% off on your first welding project!
+            </p>
+            <a href="#booking" class="btn-primary" style="font-size: 1.125rem">
+              Book Now & Get 10% Off
+            </a>
+          </section>
+        </main>
       </div>
 
       <!-- Footer -->
@@ -111,5 +699,126 @@
         </div>
       </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <script>
+      // FAQ Toggle Functionality
+      document.querySelectorAll(".faq-question").forEach((question) => {
+        question.addEventListener("click", () => {
+          const faqItem = question.parentElement;
+          faqItem.classList.toggle("active");
+        });
+      });
+
+      // Form Submission
+      document
+        .querySelector(".booking-form")
+        .addEventListener("submit", function (e) {
+          e.preventDefault();
+          alert(
+            "Thank you for your welding service request! A certified welder will contact you within 2 hours to discuss your project and provide a detailed quote."
+          );
+          this.reset();
+        });
+
+      // Service Card Buttons
+      document
+        .querySelectorAll(".service-card .welder-btn")
+        .forEach((button) => {
+          button.addEventListener("click", function () {
+            const serviceName =
+              this.parentElement.querySelector("h3").textContent;
+            alert(
+              `You've selected: ${serviceName}\nYou will be redirected to the booking form to get a detailed quote.`
+            );
+            document
+              .getElementById("booking")
+              .scrollIntoView({ behavior: "smooth" });
+          });
+        });
+
+      // Welder Card Buttons
+      document
+        .querySelectorAll(".welder-card .welder-btn")
+        .forEach((button) => {
+          button.addEventListener("click", function () {
+            const welderName =
+              this.parentElement.querySelector(".welder-name").textContent;
+            alert(
+              `You've selected ${welderName} for your welding project. You will be redirected to the booking form.`
+            );
+            document
+              .getElementById("booking")
+              .scrollIntoView({ behavior: "smooth" });
+          });
+        });
+
+      // Initialize Swipers
+      const swiper = new Swiper(".tech-swipe", {
+        slidesPerView: 1,
+        spaceBetween: 20,
+        loop: true,
+        autoplay: {
+          delay: 3000,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-tech-next",
+          prevEl: ".swiper-button-tech-prev",
+        },
+        breakpoints: {
+          640: { slidesPerView: 1 },
+          768: { slidesPerView: 2 },
+          1024: { slidesPerView: 3 },
+        },
+      });
+
+      const serviceSwiper = new Swiper(".service-swipe", {
+        slidesPerView: 1,
+        spaceBetween: 20,
+        loop: true,
+        autoplay: {
+          delay: 3000,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-service-next",
+          prevEl: ".swiper-button-service-prev",
+        },
+        breakpoints: {
+          640: { slidesPerView: 1 },
+          768: { slidesPerView: 2 },
+          1024: { slidesPerView: 3 },
+        },
+      });
+
+      const testSwiper = new Swiper(".testimonial-swipe", {
+        slidesPerView: 1,
+        spaceBetween: 20,
+        loop: true,
+        autoplay: {
+          delay: 3000,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-test-next",
+          prevEl: ".swiper-button-test-prev",
+        },
+        breakpoints: {
+          640: { slidesPerView: 1 },
+          768: { slidesPerView: 2 },
+          1024: { slidesPerView: 3 },
+        },
+      });
+    </script>
   </body>
 </html>
