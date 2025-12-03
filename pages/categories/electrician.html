@@ -13,13 +13,13 @@
       href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
     />
     <link rel="stylesheet" href="../../styles/styles.css" />
-    <link rel="stylesheet" href="../../styles/categories/tvfixer.css" />
+    <link rel="stylesheet" href="../../styles/categories/electrician.css" />
   </head>
   <body>
     <!-- Header -->
     <div class="parent-div">
       <div class="flex-c-c notify-div">
-        <p class="">Notifications are displayed here</p>
+        <p class="">Get 10% off on your first electrical service!</p>
       </div>
 
       <div class="nav-div">
@@ -55,19 +55,642 @@
               <a href="./welder.html" target="_blank">Welder</a>
               <a href="./mechanic.html" target="_blank">Mechanic</a>
               <a href="./plumber.html" target="_blank">Plumber</a>
-              <a href="#">Electrician</a>
+              <a href="#" class="active">Electrician</a>
               <a href="./carpenter.html" target="_blank">Carpenter</a>
             </div>
           </div>
         </div>
       </div>
+
       <!-- Hero -->
-      <div class="hero-div categories-hero">
-        <h1>Electrician</h1>
+      <div class="electrician-hero">
+        <h1>Professional Electrical Services</h1>
         <p>
-          Find skilled Electricians to install, maintain, and repair electrical
-          systems efficiently.
+          Find licensed electricians for all your electrical repair and
+          installation needs. From emergency electrical issues to complete
+          wiring installations, our certified electricians provide safe,
+          reliable solutions with code compliance.
         </p>
+        <div class="hero-btns">
+          <a href="#booking" class="btn-primary">Book an Electrician</a>
+          <a href="#services" class="btn-secondary">View Services</a>
+        </div>
+      </div>
+
+      <!-- Main Content -->
+      <div class="content-div">
+        <main class="electrician-container">
+          <!-- Services Section -->
+          <section id="services" class="services-section">
+            <h2 class="section-title">Our Electrical Services</h2>
+            <div class="services-grid">
+              <div class="service-card">
+                <div class="service-icon">
+                  <i class="fas fa-bolt"></i>
+                </div>
+                <div class="service-content">
+                  <h3>Electrical Repair</h3>
+                  <p>
+                    Troubleshooting and repair of electrical issues including
+                    power outages, circuit breaker problems, and faulty wiring.
+                  </p>
+                  <button class="electrician-btn">Book Service</button>
+                </div>
+              </div>
+
+              <div class="service-card">
+                <div class="service-icon">
+                  <i class="fas fa-lightbulb"></i>
+                </div>
+                <div class="service-content">
+                  <h3>Lighting Installation</h3>
+                  <p>
+                    Indoor/outdoor lighting installation, fixture replacement,
+                    recessed lighting, and smart lighting system setup.
+                  </p>
+                  <button class="electrician-btn">Book Service</button>
+                </div>
+              </div>
+
+              <div class="service-card">
+                <div class="service-icon">
+                  <i class="fas fa-plug"></i>
+                </div>
+                <div class="service-content">
+                  <h3>Outlet & Switch Installation</h3>
+                  <p>
+                    Electrical outlet installation, switch replacement, GFCI
+                    outlet installation, and USB outlet upgrades.
+                  </p>
+                  <button class="electrician-btn">Book Service</button>
+                </div>
+              </div>
+
+              <div class="service-card">
+                <div class="service-icon">
+                  <i class="fas fa-home"></i>
+                </div>
+                <div class="service-content">
+                  <h3>Panel Upgrades</h3>
+                  <p>
+                    Electrical panel replacement, circuit breaker upgrades, and
+                    service panel upgrades for increased capacity.
+                  </p>
+                  <button class="electrician-btn">Book Service</button>
+                </div>
+              </div>
+
+              <div class="service-card">
+                <div class="service-icon">
+                  <i class="fas fa-solar-panel"></i>
+                </div>
+                <div class="service-content">
+                  <h3>EV Charger Installation</h3>
+                  <p>
+                    Electric vehicle charger installation for home and
+                    commercial use with proper electrical capacity assessment.
+                  </p>
+                  <button class="electrician-btn">Book Service</button>
+                </div>
+              </div>
+
+              <div class="service-card">
+                <div class="service-icon">
+                  <i class="fas fa-tools"></i>
+                </div>
+                <div class="service-content">
+                  <h3>Whole House Rewiring</h3>
+                  <p>
+                    Complete home rewiring, knob and tube replacement, and
+                    electrical system updates for older properties.
+                  </p>
+                  <button class="electrician-btn">Book Service</button>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Electricians Section -->
+          <section class="electricians-section">
+            <h2 class="section-title">Licensed Electricians</h2>
+            <div class="electricians-grid">
+              <div class="technician-swipe-main">
+                <div class="swiper-button-tech-prev">
+                  <i class="fas fa-chevron-left"></i>
+                </div>
+                <div class="tech-swipe swiper">
+                  <div class="swiper-wrapper">
+                    <div class="electrician-card swiper-slide">
+                      <div class="electrician-img">
+                        <i class="fas fa-user-tie"></i>
+                      </div>
+                      <div class="tech-info">
+                        <h3 class="electrician-name">James Wilson</h3>
+                        <div class="electrician-rating">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star-half-alt"></i>
+                          <span> (4.7)</span>
+                        </div>
+                        <p class="electrician-specialty">
+                          15+ years experience • Master Electrician License
+                          #ME1234
+                        </p>
+                        <button class="electrician-btn">
+                          Hire Electrician
+                        </button>
+                      </div>
+                    </div>
+                    <div class="electrician-card swiper-slide">
+                      <div class="electrician-img">
+                        <i class="fas fa-user-tie"></i>
+                      </div>
+                      <div class="tech-info">
+                        <h3 class="electrician-name">Michael Chen</h3>
+                        <div class="electrician-rating">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <span> (5.0)</span>
+                        </div>
+                        <p class="electrician-specialty">
+                          12+ years experience • Commercial Electrical Expert
+                        </p>
+                        <button class="electrician-btn">
+                          Hire Electrician
+                        </button>
+                      </div>
+                    </div>
+
+                    <div class="electrician-card swiper-slide">
+                      <div class="electrician-img">
+                        <i class="fas fa-user-tie"></i>
+                      </div>
+                      <div class="tech-info">
+                        <h3 class="electrician-name">Sarah Johnson</h3>
+                        <div class="electrician-rating">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <span> (4.9)</span>
+                        </div>
+                        <p class="electrician-specialty">
+                          10+ years experience • Residential Wiring Specialist
+                        </p>
+                        <button class="electrician-btn">
+                          Hire Electrician
+                        </button>
+                      </div>
+                    </div>
+
+                    <div class="electrician-card swiper-slide">
+                      <div class="electrician-img">
+                        <i class="fas fa-user-tie"></i>
+                      </div>
+                      <div class="tech-info">
+                        <h3 class="electrician-name">Robert Martinez</h3>
+                        <div class="electrician-rating">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star-half-alt"></i>
+                          <span> (4.8)</span>
+                        </div>
+                        <p class="electrician-specialty">
+                          18+ years experience • Industrial & Panel Upgrade
+                          Expert
+                        </p>
+                        <button class="electrician-btn">
+                          Hire Electrician
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-pagination" style="position: static"></div>
+                </div>
+                <div class="swiper-button-tech-next">
+                  <i class="fas fa-chevron-right"></i>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Booking Section -->
+          <section id="booking" class="booking-section">
+            <h2 class="section-title">Book Electrical Service</h2>
+            <form class="booking-form">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="name">Full Name</label>
+                  <input
+                    type="text"
+                    id="name"
+                    class="form-control"
+                    placeholder="Enter your name"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="phone">Phone Number</label>
+                  <input
+                    type="tel"
+                    id="phone"
+                    class="form-control"
+                    placeholder="Enter your phone number"
+                    required
+                  />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="address">Service Address</label>
+                <input
+                  type="text"
+                  id="address"
+                  class="form-control"
+                  placeholder="Enter service address"
+                  required
+                />
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="service-type">Electrical Service</label>
+                  <select id="service-type" class="form-control" required>
+                    <option value="">Select Service Type</option>
+                    <option value="emergency">
+                      Emergency Electrical Repair
+                    </option>
+                    <option value="lighting">Lighting Installation</option>
+                    <option value="outlets">
+                      Outlet & Switch Installation
+                    </option>
+                    <option value="panel">Panel Upgrade</option>
+                    <option value="ev-charger">EV Charger Installation</option>
+                    <option value="rewiring">Whole House Rewiring</option>
+                    <option value="other">Other</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="urgency">Urgency Level</label>
+                  <select id="urgency" class="form-control" required>
+                    <option value="">Select Urgency</option>
+                    <option value="emergency">
+                      Emergency (No power/Spark/Fire hazard)
+                    </option>
+                    <option value="urgent">Urgent (Within 24 hours)</option>
+                    <option value="scheduled">Scheduled (Within 1 week)</option>
+                    <option value="routine">
+                      Routine Maintenance/Installation
+                    </option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="property-type">Property Type</label>
+                  <select id="property-type" class="form-control" required>
+                    <option value="">Select Property Type</option>
+                    <option value="house">Single Family House</option>
+                    <option value="apartment">Apartment/Condo</option>
+                    <option value="townhouse">Townhouse</option>
+                    <option value="commercial">Commercial Property</option>
+                    <option value="industrial">Industrial Property</option>
+                    <option value="other">Other</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="property-age">Property Age</label>
+                  <select id="property-age" class="form-control" required>
+                    <option value="">Select Property Age</option>
+                    <option value="new">New Construction (0-10 years)</option>
+                    <option value="modern">Modern (11-30 years)</option>
+                    <option value="older">Older (31-50 years)</option>
+                    <option value="historic">Historic (50+ years)</option>
+                    <option value="unknown">Not Sure</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="description">Electrical Issue Description</label>
+                <textarea
+                  id="description"
+                  class="form-control"
+                  rows="4"
+                  placeholder="Describe your electrical issue in detail (symptoms, affected areas, when it started, any previous repairs)..."
+                ></textarea>
+              </div>
+
+              <div class="form-group">
+                <label for="preferred-time">Preferred Service Time</label>
+                <select id="preferred-time" class="form-control">
+                  <option value="">Select Preferred Time</option>
+                  <option value="morning">Morning (8 AM - 12 PM)</option>
+                  <option value="afternoon">Afternoon (12 PM - 4 PM)</option>
+                  <option value="evening">Evening (4 PM - 8 PM)</option>
+                  <option value="flexible">Flexible/Any Time</option>
+                </select>
+              </div>
+
+              <button type="submit" class="submit-btn">
+                Schedule Electrical Service
+              </button>
+            </form>
+          </section>
+
+          <!-- Features Section -->
+          <section class="features-section">
+            <h2 class="section-title">Why Choose Our Electrical Services</h2>
+            <div class="features-grid">
+              <div class="service-swipe-div">
+                <div class="swiper-button-service-prev">
+                  <i class="fas fa-chevron-left"></i>
+                </div>
+
+                <div class="service-swipe swiper">
+                  <div class="swiper-wrapper">
+                    <div class="feature-item swiper-slide">
+                      <div class="feature-icon">
+                        <i class="fas fa-certificate"></i>
+                      </div>
+                      <h3>Licensed & Insured</h3>
+                      <p>
+                        All our electricians are fully licensed, bonded, and
+                        insured for your safety and protection.
+                      </p>
+                    </div>
+
+                    <div class="feature-item swiper-slide">
+                      <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                      </div>
+                      <h3>Safety First</h3>
+                      <p>
+                        Strict adherence to electrical safety codes and use of
+                        proper safety equipment on all jobs.
+                      </p>
+                    </div>
+
+                    <div class="feature-item swiper-slide">
+                      <div class="feature-icon">
+                        <i class="fas fa-clock"></i>
+                      </div>
+                      <h3>24/7 Emergency Service</h3>
+                      <p>
+                        Available round the clock for electrical emergencies
+                        including power outages and safety hazards.
+                      </p>
+                    </div>
+
+                    <div class="feature-item swiper-slide">
+                      <div class="feature-icon">
+                        <i class="fas fa-bolt"></i>
+                      </div>
+                      <h3>Code Compliance</h3>
+                      <p>
+                        All work performed to meet or exceed National Electrical
+                        Code (NEC) and local regulations.
+                      </p>
+                    </div>
+
+                    <div class="feature-item swiper-slide">
+                      <div class="feature-icon">
+                        <i class="fas fa-tools"></i>
+                      </div>
+                      <h3>Advanced Equipment</h3>
+                      <p>
+                        State-of-the-art diagnostic tools and equipment for
+                        accurate troubleshooting and repairs.
+                      </p>
+                    </div>
+
+                    <div class="feature-item swiper-slide">
+                      <div class="feature-icon">
+                        <i class="fas fa-medal"></i>
+                      </div>
+                      <h3>Work Warranty</h3>
+                      <p>
+                        All electrical work comes with a comprehensive warranty
+                        for materials and labor.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="swiper-pagination" style="position: static"></div>
+                </div>
+                <div class="swiper-button-service-next">
+                  <i class="fas fa-chevron-right"></i>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Testimonials -->
+          <section class="testimonials-section">
+            <h2 class="section-title">What Our Clients Say</h2>
+            <div class="testimonial-slider">
+              <div class="testimonial-swipe-div">
+                <div class="swiper-button-test-prev">
+                  <i class="fas fa-chevron-left"></i>
+                </div>
+                <div class="testimonial-swipe swiper">
+                  <div class="swiper-wrapper">
+                    <!-- Testimonial 1 -->
+                    <div class="testimonial swiper-slide">
+                      <p class="testimonial-text">
+                        "Emergency power outage in our home was fixed within 2
+                        hours. The electrician identified the main panel issue
+                        and resolved it professionally. Excellent service!"
+                      </p>
+                      <div class="testimonial-author">
+                        <div class="author-img">
+                          <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                          <h4>David Thompson</h4>
+                          <p>Emergency Electrical Client</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Testimonial 2 -->
+                    <div class="testimonial swiper-slide">
+                      <p class="testimonial-text">
+                        "Complete home rewiring for our 1920s house was handled
+                        expertly. The electrician updated everything to modern
+                        standards while preserving the home's character."
+                      </p>
+                      <div class="testimonial-author">
+                        <div class="author-img">
+                          <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                          <h4>Maria Garcia</h4>
+                          <p>Home Rewiring Client</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Testimonial 3 -->
+                    <div class="testimonial swiper-slide">
+                      <p class="testimonial-text">
+                        "EV charger installation was completed quickly and
+                        efficiently. The electrician handled all permits and
+                        inspections. Our Tesla charges perfectly now!"
+                      </p>
+                      <div class="testimonial-author">
+                        <div class="author-img">
+                          <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                          <h4>Robert Chen</h4>
+                          <p>EV Charger Installation Client</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Testimonial 4 -->
+                    <div class="testimonial swiper-slide">
+                      <p class="testimonial-text">
+                        "Panel upgrade from 100A to 200A was handled
+                        professionally. The electrician explained everything
+                        clearly and the work passed inspection without issues."
+                      </p>
+                      <div class="testimonial-author">
+                        <div class="author-img">
+                          <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                          <h4>Sarah Williams</h4>
+                          <p>Panel Upgrade Client</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Testimonial 5 -->
+                    <div class="testimonial swiper-slide">
+                      <p class="testimonial-text">
+                        "Commercial lighting retrofit for our office saved us
+                        40% on energy bills. The electrician's expertise in
+                        energy-efficient solutions was impressive."
+                      </p>
+                      <div class="testimonial-author">
+                        <div class="author-img">
+                          <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                          <h4>Michael Johnson</h4>
+                          <p>Commercial Electrical Client</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-pagination" style="position: static"></div>
+                </div>
+                <div class="swiper-button-test-next">
+                  <i class="fas fa-chevron-right"></i>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- FAQ Section -->
+          <section class="faq-section">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <div class="faq-container">
+              <div class="faq-item">
+                <div class="faq-question">
+                  <span>What constitutes an electrical emergency?</span>
+                  <span class="faq-toggle">+</span>
+                </div>
+                <div class="faq-answer">
+                  <p>
+                    Electrical emergencies include: power outages affecting your
+                    property only, sparking outlets or switches, burning smells
+                    from electrical panels, exposed wires, electrical shocks,
+                    and smoke from electrical devices. For emergencies, we offer
+                    24/7 service with rapid response times.
+                  </p>
+                </div>
+              </div>
+
+              <div class="faq-item">
+                <div class="faq-question">
+                  <span>Do I need a permit for electrical work?</span>
+                  <span class="faq-toggle">+</span>
+                </div>
+                <div class="faq-answer">
+                  <p>
+                    Most significant electrical work requires permits including
+                    panel upgrades, new circuits, whole house rewiring, and
+                    additions. As licensed electricians, we handle all necessary
+                    permits and coordinate inspections with local authorities.
+                    Simple repairs and replacements typically don't require
+                    permits.
+                  </p>
+                </div>
+              </div>
+
+              <div class="faq-item">
+                <div class="faq-question">
+                  <span
+                    >How often should I have my electrical system
+                    inspected?</span
+                  >
+                  <span class="faq-toggle">+</span>
+                </div>
+                <div class="faq-answer">
+                  <p>
+                    For homes under 40 years old, every 10 years is recommended.
+                    For older homes (40+ years), every 3-5 years is advisable.
+                    Commercial properties should be inspected annually. Always
+                    get an inspection before purchasing a property or if you're
+                    experiencing frequent electrical issues.
+                  </p>
+                </div>
+              </div>
+
+              <div class="faq-item">
+                <div class="faq-question">
+                  <span
+                    >What are signs I need an electrical panel upgrade?</span
+                  >
+                  <span class="faq-toggle">+</span>
+                </div>
+                <div class="faq-answer">
+                  <p>
+                    Signs include: frequent circuit breaker tripping, using
+                    multiple power strips, flickering lights when appliances
+                    turn on, burning smell from the panel, rust or corrosion on
+                    the panel, adding major appliances (EV charger, hot tub, AC
+                    unit), or having a panel with fuses instead of breakers.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- CTA Section -->
+          <section class="cta-section">
+            <h2>Need Professional Electrical Help?</h2>
+            <p>
+              Our licensed electricians are ready to solve your electrical
+              problems safely and efficiently. Book a service now and get 10%
+              off on your first electrical service!
+            </p>
+            <a href="#booking" class="btn-primary" style="font-size: 1.125rem">
+              Book Now & Get 10% Off
+            </a>
+          </section>
+        </main>
       </div>
 
       <!-- Footer -->
@@ -112,5 +735,126 @@
         </div>
       </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <script>
+      // FAQ Toggle Functionality
+      document.querySelectorAll(".faq-question").forEach((question) => {
+        question.addEventListener("click", () => {
+          const faqItem = question.parentElement;
+          faqItem.classList.toggle("active");
+        });
+      });
+
+      // Form Submission
+      document
+        .querySelector(".booking-form")
+        .addEventListener("submit", function (e) {
+          e.preventDefault();
+          alert(
+            "Thank you for your electrical service request! A licensed electrician will contact you within 1 hour to schedule your service."
+          );
+          this.reset();
+        });
+
+      // Service Card Buttons
+      document
+        .querySelectorAll(".service-card .electrician-btn")
+        .forEach((button) => {
+          button.addEventListener("click", function () {
+            const serviceName =
+              this.parentElement.querySelector("h3").textContent;
+            alert(
+              `You've selected: ${serviceName}\nYou will be redirected to the booking form to schedule your service.`
+            );
+            document
+              .getElementById("booking")
+              .scrollIntoView({ behavior: "smooth" });
+          });
+        });
+
+      // Electrician Card Buttons
+      document
+        .querySelectorAll(".electrician-card .electrician-btn")
+        .forEach((button) => {
+          button.addEventListener("click", function () {
+            const electricianName =
+              this.parentElement.querySelector(".electrician-name").textContent;
+            alert(
+              `You've selected ${electricianName} for your electrical service. You will be redirected to the booking form.`
+            );
+            document
+              .getElementById("booking")
+              .scrollIntoView({ behavior: "smooth" });
+          });
+        });
+
+      // Initialize Swipers
+      const swiper = new Swiper(".tech-swipe", {
+        slidesPerView: 1,
+        spaceBetween: 20,
+        loop: true,
+        autoplay: {
+          delay: 3000,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-tech-next",
+          prevEl: ".swiper-button-tech-prev",
+        },
+        breakpoints: {
+          640: { slidesPerView: 1 },
+          768: { slidesPerView: 2 },
+          1024: { slidesPerView: 3 },
+        },
+      });
+
+      const serviceSwiper = new Swiper(".service-swipe", {
+        slidesPerView: 1,
+        spaceBetween: 20,
+        loop: true,
+        autoplay: {
+          delay: 3000,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-service-next",
+          prevEl: ".swiper-button-service-prev",
+        },
+        breakpoints: {
+          640: { slidesPerView: 1 },
+          768: { slidesPerView: 2 },
+          1024: { slidesPerView: 3 },
+        },
+      });
+
+      const testSwiper = new Swiper(".testimonial-swipe", {
+        slidesPerView: 1,
+        spaceBetween: 20,
+        loop: true,
+        autoplay: {
+          delay: 3000,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-test-next",
+          prevEl: ".swiper-button-test-prev",
+        },
+        breakpoints: {
+          640: { slidesPerView: 1 },
+          768: { slidesPerView: 2 },
+          1024: { slidesPerView: 3 },
+        },
+      });
+    </script>
   </body>
 </html>
