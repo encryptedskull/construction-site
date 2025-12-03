@@ -746,6 +746,9 @@
           </div>
         </div>
       </div>
+      <button class="back-to-top" id="backToTop" aria-label="Back to Top">
+        <i class="fas fa-chevron-up"></i>
+      </button>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 
@@ -866,6 +869,27 @@
           768: { slidesPerView: 2 },
           1024: { slidesPerView: 3 },
         },
+      });
+
+      // Back to Top Button
+      const backToTopButton = document.getElementById("backToTop");
+
+      // Show/hide button based on scroll position
+      window.addEventListener("scroll", () => {
+        if (window.pageYOffset > 300) {
+          // Show after scrolling 300px
+          backToTopButton.classList.add("visible");
+        } else {
+          backToTopButton.classList.remove("visible");
+        }
+      });
+
+      // Scroll to top when clicked
+      backToTopButton.addEventListener("click", () => {
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth",
+        });
       });
     </script>
   </body>
