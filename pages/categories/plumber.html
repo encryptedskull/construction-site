@@ -13,13 +13,13 @@
       href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
     />
     <link rel="stylesheet" href="../../styles/styles.css" />
-    <link rel="stylesheet" href="../../styles/categories/tvfixer.css" />
+    <link rel="stylesheet" href="../../styles/categories/plumber.css" />
   </head>
   <body>
     <!-- Header -->
     <div class="parent-div">
       <div class="flex-c-c notify-div">
-        <p class="">Notifications are displayed here</p>
+        <p class="">Get 10% off on your first plumbing service!</p>
       </div>
 
       <div class="nav-div">
@@ -49,23 +49,625 @@
         </nav>
         <div class="end-a-div">
           <div class="end-b-div">
-            <a href="./tvfixer.html" target="_blank">TV Fixer</a>
-            <a href="./constructor.html" target="_blank">Constructor</a>
-            <a href="./welder.html" target="_blank">Welder</a>
-            <a href="./mechanic.html" target="_blank">Mechanic</a>
-            <a href="#">Plumber</a>
-            <a href="./electrician.html" target="_blank">Electrician</a>
-            <a href="./carpenter.html" target="_blank">Carpenter</a>
+            <div class="end-b-div">
+              <a href="./tvfixer.html" target="_blank">TV Fixer</a>
+              <a href="./constructor.html" target="_blank">Constructor</a>
+              <a href="./welder.html" target="_blank">Welder</a>
+              <a href="./mechanic.html" target="_blank">Mechanic</a>
+              <a href="#" class="active">Plumber</a>
+              <a href="./electrician.html" target="_blank">Electrician</a>
+              <a href="./carpenter.html" target="_blank">Carpenter</a>
+            </div>
           </div>
         </div>
       </div>
+
       <!-- Hero -->
-      <div class="hero-div categories-hero">
-        <h1>Plumber</h1>
+      <div class="plumber-hero">
+        <h1>Professional Plumbing Services</h1>
         <p>
-          Find skilled Plumbers to repair and maintain your plumbing systems
-          efficiently.
+          Find skilled plumbers for all your plumbing repair and installation
+          needs. From emergency leaks to complete plumbing system installations,
+          our licensed plumbers provide reliable solutions with quality
+          workmanship.
         </p>
+        <div class="hero-btns">
+          <a href="#booking" class="btn-primary">Book a Plumber</a>
+          <a href="#services" class="btn-secondary">View Services</a>
+        </div>
+      </div>
+
+      <!-- Main Content -->
+      <div class="content-div">
+        <main class="plumber-container">
+          <!-- Services Section -->
+          <section id="services" class="services-section">
+            <h2 class="section-title">Our Plumbing Services</h2>
+            <div class="services-grid">
+              <div class="service-card">
+                <div class="service-icon">
+                  <i class="fas fa-faucet"></i>
+                </div>
+                <div class="service-content">
+                  <h3>Leak Repair</h3>
+                  <p>
+                    Emergency leak detection and repair for pipes, faucets,
+                    toilets, and water heaters. Fast response to prevent water
+                    damage.
+                  </p>
+                  <button class="plumber-btn">Book Service</button>
+                </div>
+              </div>
+
+              <div class="service-card">
+                <div class="service-icon">
+                  <i class="fas fa-toilet"></i>
+                </div>
+                <div class="service-content">
+                  <h3>Toilet Repair & Installation</h3>
+                  <p>
+                    Toilet installation, repair, unclogging, and replacement
+                    services. Fix running toilets, leaks, and flushing issues.
+                  </p>
+                  <button class="plumber-btn">Book Service</button>
+                </div>
+              </div>
+
+              <div class="service-card">
+                <div class="service-icon">
+                  <i class="fas fa-shower"></i>
+                </div>
+                <div class="service-content">
+                  <h3>Bathroom Plumbing</h3>
+                  <p>
+                    Sink, shower, bathtub, and bathroom fixture installation and
+                    repair. Drain cleaning and water pressure solutions.
+                  </p>
+                  <button class="plumber-btn">Book Service</button>
+                </div>
+              </div>
+
+              <div class="service-card">
+                <div class="service-icon">
+                  <i class="fas fa-sink"></i>
+                </div>
+                <div class="service-content">
+                  <h3>Kitchen Plumbing</h3>
+                  <p>
+                    Kitchen sink installation, garbage disposal repair,
+                    dishwasher hookup, and faucet replacement services.
+                  </p>
+                  <button class="plumber-btn">Book Service</button>
+                </div>
+              </div>
+
+              <div class="service-card">
+                <div class="service-icon">
+                  <i class="fas fa-water"></i>
+                </div>
+                <div class="service-content">
+                  <h3>Water Heater Services</h3>
+                  <p>
+                    Water heater installation, repair, and maintenance for tank
+                    and tankless systems. Flush and sediment removal.
+                  </p>
+                  <button class="plumber-btn">Book Service</button>
+                </div>
+              </div>
+
+              <div class="service-card">
+                <div class="service-icon">
+                  <i class="fas fa-tools"></i>
+                </div>
+                <div class="service-content">
+                  <h3>Drain & Sewer Services</h3>
+                  <p>
+                    Drain cleaning, sewer line repair, camera inspection, and
+                    hydro-jetting for clogged or slow-draining pipes.
+                  </p>
+                  <button class="plumber-btn">Book Service</button>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Plumbers Section -->
+          <section class="plumbers-section">
+            <h2 class="section-title">Licensed Plumbers</h2>
+            <div class="plumbers-grid">
+              <div class="technician-swipe-main">
+                <div class="swiper-button-tech-prev">
+                  <i class="fas fa-chevron-left"></i>
+                </div>
+                <div class="tech-swipe swiper">
+                  <div class="swiper-wrapper">
+                    <div class="plumber-card swiper-slide">
+                      <div class="plumber-img">
+                        <i class="fas fa-user-tie"></i>
+                      </div>
+                      <div class="tech-info">
+                        <h3 class="plumber-name">Mark Thompson</h3>
+                        <div class="plumber-rating">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star-half-alt"></i>
+                          <span> (4.6)</span>
+                        </div>
+                        <p class="plumber-specialty">
+                          12+ years experience • Master Plumber License
+                        </p>
+                        <button class="plumber-btn">Hire Plumber</button>
+                      </div>
+                    </div>
+                    <div class="plumber-card swiper-slide">
+                      <div class="plumber-img">
+                        <i class="fas fa-user-tie"></i>
+                      </div>
+                      <div class="tech-info">
+                        <h3 class="plumber-name">James Wilson</h3>
+                        <div class="plumber-rating">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <span> (5.0)</span>
+                        </div>
+                        <p class="plumber-specialty">
+                          15+ years experience • Emergency Plumbing Specialist
+                        </p>
+                        <button class="plumber-btn">Hire Plumber</button>
+                      </div>
+                    </div>
+
+                    <div class="plumber-card swiper-slide">
+                      <div class="plumber-img">
+                        <i class="fas fa-user-tie"></i>
+                      </div>
+                      <div class="tech-info">
+                        <h3 class="plumber-name">Lisa Martinez</h3>
+                        <div class="plumber-rating">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <span> (4.9)</span>
+                        </div>
+                        <p class="plumber-specialty">
+                          10+ years experience • Bathroom & Kitchen Plumbing
+                        </p>
+                        <button class="plumber-btn">Hire Plumber</button>
+                      </div>
+                    </div>
+
+                    <div class="plumber-card swiper-slide">
+                      <div class="plumber-img">
+                        <i class="fas fa-user-tie"></i>
+                      </div>
+                      <div class="tech-info">
+                        <h3 class="plumber-name">Robert Chen</h3>
+                        <div class="plumber-rating">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star-half-alt"></i>
+                          <span> (4.7)</span>
+                        </div>
+                        <p class="plumber-specialty">
+                          18+ years experience • Drain & Sewer Line Expert
+                        </p>
+                        <button class="plumber-btn">Hire Plumber</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-pagination" style="position: static"></div>
+                </div>
+                <div class="swiper-button-tech-next">
+                  <i class="fas fa-chevron-right"></i>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Booking Section -->
+          <section id="booking" class="booking-section">
+            <h2 class="section-title">Book Plumbing Service</h2>
+            <form class="booking-form">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="name">Full Name</label>
+                  <input
+                    type="text"
+                    id="name"
+                    class="form-control"
+                    placeholder="Enter your name"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="phone">Phone Number</label>
+                  <input
+                    type="tel"
+                    id="phone"
+                    class="form-control"
+                    placeholder="Enter your phone number"
+                    required
+                  />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="address">Service Address</label>
+                <input
+                  type="text"
+                  id="address"
+                  class="form-control"
+                  placeholder="Enter service address"
+                  required
+                />
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="service-type">Plumbing Service</label>
+                  <select id="service-type" class="form-control" required>
+                    <option value="">Select Service Type</option>
+                    <option value="emergency">Emergency Leak Repair</option>
+                    <option value="toilet">Toilet Repair/Installation</option>
+                    <option value="bathroom">Bathroom Plumbing</option>
+                    <option value="kitchen">Kitchen Plumbing</option>
+                    <option value="water-heater">Water Heater Service</option>
+                    <option value="drain">Drain & Sewer Service</option>
+                    <option value="other">Other</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="urgency">Urgency Level</label>
+                  <select id="urgency" class="form-control" required>
+                    <option value="">Select Urgency</option>
+                    <option value="emergency">
+                      Emergency (Water leaking now)
+                    </option>
+                    <option value="urgent">Urgent (Within 24 hours)</option>
+                    <option value="scheduled">Scheduled (Within 1 week)</option>
+                    <option value="routine">Routine Maintenance</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="property-type">Property Type</label>
+                  <select id="property-type" class="form-control" required>
+                    <option value="">Select Property Type</option>
+                    <option value="house">Single Family House</option>
+                    <option value="apartment">Apartment/Condo</option>
+                    <option value="townhouse">Townhouse</option>
+                    <option value="commercial">Commercial Property</option>
+                    <option value="other">Other</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="access">Access to Problem Area</label>
+                  <select id="access" class="form-control" required>
+                    <option value="">Select Access</option>
+                    <option value="easy">Easy Access (No obstacles)</option>
+                    <option value="moderate">
+                      Moderate Access (Some furniture)
+                    </option>
+                    <option value="difficult">
+                      Difficult Access (Crawl space/basement)
+                    </option>
+                    <option value="unknown">Not Sure</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="description">Problem Description</label>
+                <textarea
+                  id="description"
+                  class="form-control"
+                  rows="4"
+                  placeholder="Describe your plumbing issue in detail (location, symptoms, how long it's been happening)..."
+                ></textarea>
+              </div>
+
+              <div class="form-group">
+                <label for="preferred-time">Preferred Service Time</label>
+                <select id="preferred-time" class="form-control">
+                  <option value="">Select Preferred Time</option>
+                  <option value="morning">Morning (8 AM - 12 PM)</option>
+                  <option value="afternoon">Afternoon (12 PM - 4 PM)</option>
+                  <option value="evening">Evening (4 PM - 8 PM)</option>
+                  <option value="flexible">Flexible/Any Time</option>
+                </select>
+              </div>
+
+              <button type="submit" class="submit-btn">
+                Schedule Plumbing Service
+              </button>
+            </form>
+          </section>
+
+          <!-- Features Section -->
+          <section class="features-section">
+            <h2 class="section-title">Why Choose Our Plumbing Services</h2>
+            <div class="features-grid">
+              <div class="service-swipe-div">
+                <div class="swiper-button-service-prev">
+                  <i class="fas fa-chevron-left"></i>
+                </div>
+
+                <div class="service-swipe swiper">
+                  <div class="swiper-wrapper">
+                    <div class="feature-item swiper-slide">
+                      <div class="feature-icon">
+                        <i class="fas fa-certificate"></i>
+                      </div>
+                      <h3>Licensed & Insured</h3>
+                      <p>
+                        All our plumbers are licensed, bonded, and insured for
+                        your protection and peace of mind.
+                      </p>
+                    </div>
+
+                    <div class="feature-item swiper-slide">
+                      <div class="feature-icon">
+                        <i class="fas fa-clock"></i>
+                      </div>
+                      <h3>24/7 Emergency Service</h3>
+                      <p>
+                        Available round the clock for emergency plumbing issues
+                        like leaks and burst pipes.
+                      </p>
+                    </div>
+
+                    <div class="feature-item swiper-slide">
+                      <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                      </div>
+                      <h3>Work Guarantee</h3>
+                      <p>
+                        All plumbing work comes with a 1-year labor warranty for
+                        your complete satisfaction.
+                      </p>
+                    </div>
+
+                    <div class="feature-item swiper-slide">
+                      <div class="feature-icon">
+                        <i class="fas fa-dollar-sign"></i>
+                      </div>
+                      <h3>Upfront Pricing</h3>
+                      <p>
+                        Transparent, upfront pricing with no hidden fees. We
+                        provide quotes before starting any work.
+                      </p>
+                    </div>
+
+                    <div class="feature-item swiper-slide">
+                      <div class="feature-icon">
+                        <i class="fas fa-tools"></i>
+                      </div>
+                      <h3>Modern Equipment</h3>
+                      <p>
+                        Advanced tools including pipe cameras, hydro-jetters,
+                        and trenchless repair technology.
+                      </p>
+                    </div>
+
+                    <div class="feature-item swiper-slide">
+                      <div class="feature-icon">
+                        <i class="fas fa-medal"></i>
+                      </div>
+                      <h3>Quality Materials</h3>
+                      <p>
+                        We use only high-quality plumbing materials and fixtures
+                        from trusted manufacturers.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="swiper-pagination" style="position: static"></div>
+                </div>
+                <div class="swiper-button-service-next">
+                  <i class="fas fa-chevron-right"></i>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Testimonials -->
+          <section class="testimonials-section">
+            <h2 class="section-title">What Our Clients Say</h2>
+            <div class="testimonial-slider">
+              <div class="testimonial-swipe-div">
+                <div class="swiper-button-test-prev">
+                  <i class="fas fa-chevron-left"></i>
+                </div>
+                <div class="testimonial-swipe swiper">
+                  <div class="swiper-wrapper">
+                    <!-- Testimonial 1 -->
+                    <div class="testimonial swiper-slide">
+                      <p class="testimonial-text">
+                        "Emergency water leak in the middle of the night! The
+                        plumber arrived within 45 minutes and fixed the burst
+                        pipe professionally. Excellent emergency service!"
+                      </p>
+                      <div class="testimonial-author">
+                        <div class="author-img">
+                          <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                          <h4>Michael Rodriguez</h4>
+                          <p>Emergency Plumbing Client</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Testimonial 2 -->
+                    <div class="testimonial swiper-slide">
+                      <p class="testimonial-text">
+                        "Complete bathroom remodel plumbing was done perfectly.
+                        The plumber was knowledgeable and the new fixtures look
+                        amazing. Clean work and on budget!"
+                      </p>
+                      <div class="testimonial-author">
+                        <div class="author-img">
+                          <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                          <h4>Sarah Johnson</h4>
+                          <p>Bathroom Remodel Client</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Testimonial 3 -->
+                    <div class="testimonial swiper-slide">
+                      <p class="testimonial-text">
+                        "Kitchen sink was clogged and backing up. The plumber
+                        used a camera to identify the blockage and cleared it
+                        without damaging pipes. Professional and efficient!"
+                      </p>
+                      <div class="testimonial-author">
+                        <div class="author-img">
+                          <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                          <h4>David Chen</h4>
+                          <p>Kitchen Plumbing Client</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Testimonial 4 -->
+                    <div class="testimonial swiper-slide">
+                      <p class="testimonial-text">
+                        "Water heater replacement was handled professionally
+                        from start to finish. The new tankless system works
+                        perfectly and saves us money on energy bills."
+                      </p>
+                      <div class="testimonial-author">
+                        <div class="author-img">
+                          <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                          <h4>Maria Garcia</h4>
+                          <p>Water Heater Installation Client</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Testimonial 5 -->
+                    <div class="testimonial swiper-slide">
+                      <p class="testimonial-text">
+                        "Sewer line repair using trenchless technology saved our
+                        landscaping. Minimal disruption and the work was
+                        completed in one day. Highly recommended!"
+                      </p>
+                      <div class="testimonial-author">
+                        <div class="author-img">
+                          <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                          <h4>Robert Wilson</h4>
+                          <p>Sewer Line Repair Client</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-pagination" style="position: static"></div>
+                </div>
+                <div class="swiper-button-test-next">
+                  <i class="fas fa-chevron-right"></i>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- FAQ Section -->
+          <section class="faq-section">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <div class="faq-container">
+              <div class="faq-item">
+                <div class="faq-question">
+                  <span>What constitutes a plumbing emergency?</span>
+                  <span class="faq-toggle">+</span>
+                </div>
+                <div class="faq-answer">
+                  <p>
+                    Plumbing emergencies include: burst pipes, major leaks,
+                    sewage backups, no water supply, gas leaks (call gas company
+                    first), and overflowing toilets. For emergencies, we offer
+                    24/7 service with rapid response times.
+                  </p>
+                </div>
+              </div>
+
+              <div class="faq-item">
+                <div class="faq-question">
+                  <span>Do you offer free estimates?</span>
+                  <span class="faq-toggle">+</span>
+                </div>
+                <div class="faq-answer">
+                  <p>
+                    Yes, we provide free estimates for most plumbing services.
+                    For emergency calls, we provide an estimate before starting
+                    work. For complex projects, we may charge a small diagnostic
+                    fee that applies toward the repair cost.
+                  </p>
+                </div>
+              </div>
+
+              <div class="faq-item">
+                <div class="faq-question">
+                  <span>What payment methods do you accept?</span>
+                  <span class="faq-toggle">+</span>
+                </div>
+                <div class="faq-answer">
+                  <p>
+                    We accept all major credit cards, debit cards, cash, and
+                    checks. For larger projects, we offer financing options
+                    through our partner lenders. Payment is typically due upon
+                    completion of work.
+                  </p>
+                </div>
+              </div>
+
+              <div class="faq-item">
+                <div class="faq-question">
+                  <span>Do you clean up after the job?</span>
+                  <span class="faq-toggle">+</span>
+                </div>
+                <div class="faq-answer">
+                  <p>
+                    Yes, we always clean up our work area. We use drop cloths to
+                    protect your floors, remove any debris, and leave the area
+                    cleaner than we found it. Our goal is to minimize disruption
+                    to your home or business.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- CTA Section -->
+          <section class="cta-section">
+            <h2>Need Professional Plumbing Help?</h2>
+            <p>
+              Our licensed plumbers are ready to solve your plumbing problems
+              quickly and efficiently. Book a service now and get 10% off on
+              your first plumbing service!
+            </p>
+            <a href="#booking" class="btn-primary" style="font-size: 1.125rem">
+              Book Now & Get 10% Off
+            </a>
+          </section>
+        </main>
       </div>
 
       <!-- Footer -->
@@ -110,5 +712,126 @@
         </div>
       </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <script>
+      // FAQ Toggle Functionality
+      document.querySelectorAll(".faq-question").forEach((question) => {
+        question.addEventListener("click", () => {
+          const faqItem = question.parentElement;
+          faqItem.classList.toggle("active");
+        });
+      });
+
+      // Form Submission
+      document
+        .querySelector(".booking-form")
+        .addEventListener("submit", function (e) {
+          e.preventDefault();
+          alert(
+            "Thank you for your plumbing service request! A licensed plumber will contact you within 1 hour to schedule your service."
+          );
+          this.reset();
+        });
+
+      // Service Card Buttons
+      document
+        .querySelectorAll(".service-card .plumber-btn")
+        .forEach((button) => {
+          button.addEventListener("click", function () {
+            const serviceName =
+              this.parentElement.querySelector("h3").textContent;
+            alert(
+              `You've selected: ${serviceName}\nYou will be redirected to the booking form to schedule your service.`
+            );
+            document
+              .getElementById("booking")
+              .scrollIntoView({ behavior: "smooth" });
+          });
+        });
+
+      // Plumber Card Buttons
+      document
+        .querySelectorAll(".plumber-card .plumber-btn")
+        .forEach((button) => {
+          button.addEventListener("click", function () {
+            const plumberName =
+              this.parentElement.querySelector(".plumber-name").textContent;
+            alert(
+              `You've selected ${plumberName} for your plumbing service. You will be redirected to the booking form.`
+            );
+            document
+              .getElementById("booking")
+              .scrollIntoView({ behavior: "smooth" });
+          });
+        });
+
+      // Initialize Swipers
+      const swiper = new Swiper(".tech-swipe", {
+        slidesPerView: 1,
+        spaceBetween: 20,
+        loop: true,
+        autoplay: {
+          delay: 3000,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-tech-next",
+          prevEl: ".swiper-button-tech-prev",
+        },
+        breakpoints: {
+          640: { slidesPerView: 1 },
+          768: { slidesPerView: 2 },
+          1024: { slidesPerView: 3 },
+        },
+      });
+
+      const serviceSwiper = new Swiper(".service-swipe", {
+        slidesPerView: 1,
+        spaceBetween: 20,
+        loop: true,
+        autoplay: {
+          delay: 3000,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-service-next",
+          prevEl: ".swiper-button-service-prev",
+        },
+        breakpoints: {
+          640: { slidesPerView: 1 },
+          768: { slidesPerView: 2 },
+          1024: { slidesPerView: 3 },
+        },
+      });
+
+      const testSwiper = new Swiper(".testimonial-swipe", {
+        slidesPerView: 1,
+        spaceBetween: 20,
+        loop: true,
+        autoplay: {
+          delay: 3000,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-test-next",
+          prevEl: ".swiper-button-test-prev",
+        },
+        breakpoints: {
+          640: { slidesPerView: 1 },
+          768: { slidesPerView: 2 },
+          1024: { slidesPerView: 3 },
+        },
+      });
+    </script>
   </body>
 </html>
