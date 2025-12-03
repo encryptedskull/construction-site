@@ -13,13 +13,13 @@
       href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
     />
     <link rel="stylesheet" href="../../styles/styles.css" />
-    <link rel="stylesheet" href="../../styles/categories/tvfixer.css" />
+    <link rel="stylesheet" href="../../styles/categories/mechanic.css" />
   </head>
   <body>
     <!-- Header -->
     <div class="parent-div">
       <div class="flex-c-c notify-div">
-        <p class="">Notifications are displayed here</p>
+        <p class="">Get 15% off on your first car repair service!</p>
       </div>
 
       <div class="nav-div">
@@ -53,7 +53,7 @@
               <a href="./tvfixer.html" target="_blank">TV Fixer</a>
               <a href="./constructor.html" target="_blank">Constructor</a>
               <a href="./welder.html" target="_blank">Welder</a>
-              <a href="#">Mechanic</a>
+              <a href="#" class="active">Mechanic</a>
               <a href="./plumber.html" target="_blank">Plumber</a>
               <a href="./electrician.html" target="_blank">Electrician</a>
               <a href="./carpenter.html" target="_blank">Carpenter</a>
@@ -61,13 +61,648 @@
           </div>
         </div>
       </div>
+
       <!-- Hero -->
-      <div class="hero-div categories-hero">
-        <h1>Mechanic</h1>
+      <div class="mechanic-hero">
+        <h1>Professional Auto Mechanic Services</h1>
         <p>
-          Find skilled Mechanics to repair and maintain your vehicles
-          efficiently.
+          Find skilled mechanics for all your vehicle repair and maintenance
+          needs. From routine servicing to major repairs, our certified
+          mechanics provide reliable work with genuine parts and warranty.
         </p>
+        <div class="hero-btns">
+          <a href="#booking" class="btn-primary">Book a Mechanic</a>
+          <a href="#services" class="btn-secondary">View Services</a>
+        </div>
+      </div>
+
+      <!-- Main Content -->
+      <div class="content-div">
+        <main class="mechanic-container">
+          <!-- Services Section -->
+          <section id="services" class="services-section">
+            <h2 class="section-title">Our Auto Repair Services</h2>
+            <div class="services-grid">
+              <div class="service-card">
+                <div class="service-icon">
+                  <i class="fas fa-oil-can"></i>
+                </div>
+                <div class="service-content">
+                  <h3>Oil Change & Maintenance</h3>
+                  <p>
+                    Professional oil changes, filter replacements, fluid checks,
+                    and routine maintenance to keep your vehicle running
+                    smoothly.
+                  </p>
+                  <button class="mechanic-btn">Book Service</button>
+                </div>
+              </div>
+
+              <div class="service-card">
+                <div class="service-icon">
+                  <i class="fas fa-car-battery"></i>
+                </div>
+                <div class="service-content">
+                  <h3>Brake Repair</h3>
+                  <p>
+                    Complete brake system inspection, pad replacement, rotor
+                    resurfacing, and brake fluid flush for optimal stopping
+                    power.
+                  </p>
+                  <button class="mechanic-btn">Book Service</button>
+                </div>
+              </div>
+
+              <div class="service-card">
+                <div class="service-icon">
+                  <i class="fas fa-tachometer-alt"></i>
+                </div>
+                <div class="service-content">
+                  <h3>Engine Repair</h3>
+                  <p>
+                    Engine diagnostics, timing belt replacement, gasket repairs,
+                    and complete engine overhaul services for all makes and
+                    models.
+                  </p>
+                  <button class="mechanic-btn">Book Service</button>
+                </div>
+              </div>
+
+              <div class="service-card">
+                <div class="service-icon">
+                  <!-- Scalable, colorable tire/wheel SVG -->
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    width="36"
+                    height="36"
+                    aria-hidden="true"
+                  >
+                    <!-- outer tire with "tread" via dashed stroke -->
+                    <circle
+                      cx="12"
+                      cy="12"
+                      r="9"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="1.6"
+                      stroke-dasharray="2 3"
+                    />
+                    <!-- rim / hub -->
+                    <circle cx="12" cy="12" r="4" fill="currentColor" />
+                    <!-- 6 spokes -->
+                    <g
+                      stroke="white"
+                      stroke-width="0.8"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <line x1="12" y1="3.5" x2="12" y2="8" />
+                      <line x1="12" y1="16" x2="12" y2="20.5" />
+                      <line x1="3.8" y1="7.3" x2="7.3" y2="11.8" />
+                      <line x1="16.7" y1="12.2" x2="20.2" y2="16.7" />
+                      <line x1="4.3" y1="16.7" x2="7.8" y2="12.2" />
+                      <line x1="16.7" y1="7.3" x2="20.2" y2="11.8" />
+                    </g>
+                  </svg>
+                </div>
+                <div class="service-content">
+                  <h3>Tire Services</h3>
+                  <p>
+                    Tire rotation, balancing, alignment, puncture repair, and
+                    new tire installation with quality brands and warranties.
+                  </p>
+                  <button class="mechanic-btn">Book Service</button>
+                </div>
+              </div>
+
+              <div class="service-card">
+                <div class="service-icon">
+                  <i class="fas fa-fan"></i>
+                </div>
+                <div class="service-content">
+                  <h3>AC & Heating Repair</h3>
+                  <p>
+                    Air conditioning system diagnosis, refrigerant recharge,
+                    compressor replacement, and heater core repairs.
+                  </p>
+                  <button class="mechanic-btn">Book Service</button>
+                </div>
+              </div>
+
+              <div class="service-card">
+                <div class="service-icon">
+                  <i class="fas fa-cogs"></i>
+                </div>
+                <div class="service-content">
+                  <h3>Transmission Service</h3>
+                  <p>
+                    Automatic and manual transmission repair, fluid changes,
+                    clutch replacement, and transmission rebuild services.
+                  </p>
+                  <button class="mechanic-btn">Book Service</button>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Mechanics Section -->
+          <section class="mechanics-section">
+            <h2 class="section-title">Certified Auto Mechanics</h2>
+            <div class="mechanics-grid">
+              <div class="technician-swipe-main">
+                <div class="swiper-button-tech-prev">
+                  <i class="fas fa-chevron-left"></i>
+                </div>
+                <div class="tech-swipe swiper">
+                  <div class="swiper-wrapper">
+                    <div class="mechanic-card swiper-slide">
+                      <div class="mechanic-img">
+                        <i class="fas fa-user-tie"></i>
+                      </div>
+                      <div class="tech-info">
+                        <h3 class="mechanic-name">John Anderson</h3>
+                        <div class="mechanic-rating">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star-half-alt"></i>
+                          <span> (4.6)</span>
+                        </div>
+                        <p class="mechanic-specialty">
+                          15+ years experience • ASE Certified Master Mechanic
+                        </p>
+                        <button class="mechanic-btn">Hire Mechanic</button>
+                      </div>
+                    </div>
+                    <div class="mechanic-card swiper-slide">
+                      <div class="mechanic-img">
+                        <i class="fas fa-user-tie"></i>
+                      </div>
+                      <div class="tech-info">
+                        <h3 class="mechanic-name">Robert Davis</h3>
+                        <div class="mechanic-rating">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <span> (5.0)</span>
+                        </div>
+                        <p class="mechanic-specialty">
+                          12+ years experience • Engine & Transmission
+                          Specialist
+                        </p>
+                        <button class="mechanic-btn">Hire Mechanic</button>
+                      </div>
+                    </div>
+
+                    <div class="mechanic-card swiper-slide">
+                      <div class="mechanic-img">
+                        <i class="fas fa-user-tie"></i>
+                      </div>
+                      <div class="tech-info">
+                        <h3 class="mechanic-name">Lisa Thompson</h3>
+                        <div class="mechanic-rating">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <span> (4.9)</span>
+                        </div>
+                        <p class="mechanic-specialty">
+                          10+ years experience • European Car Specialist
+                        </p>
+                        <button class="mechanic-btn">Hire Mechanic</button>
+                      </div>
+                    </div>
+
+                    <div class="mechanic-card swiper-slide">
+                      <div class="mechanic-img">
+                        <i class="fas fa-user-tie"></i>
+                      </div>
+                      <div class="tech-info">
+                        <h3 class="mechanic-name">Michael Wilson</h3>
+                        <div class="mechanic-rating">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star-half-alt"></i>
+                          <span> (4.7)</span>
+                        </div>
+                        <p class="mechanic-specialty">
+                          18+ years experience • Diagnostic & Electrical Expert
+                        </p>
+                        <button class="mechanic-btn">Hire Mechanic</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-pagination" style="position: static"></div>
+                </div>
+                <div class="swiper-button-tech-next">
+                  <i class="fas fa-chevron-right"></i>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Booking Section -->
+          <section id="booking" class="booking-section">
+            <h2 class="section-title">Book Auto Repair Service</h2>
+            <form class="booking-form">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="name">Full Name</label>
+                  <input
+                    type="text"
+                    id="name"
+                    class="form-control"
+                    placeholder="Enter your name"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="phone">Phone Number</label>
+                  <input
+                    type="tel"
+                    id="phone"
+                    class="form-control"
+                    placeholder="Enter your phone number"
+                    required
+                  />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="address">Vehicle Location</label>
+                <input
+                  type="text"
+                  id="address"
+                  class="form-control"
+                  placeholder="Enter vehicle location/address"
+                  required
+                />
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="vehicle-make">Vehicle Make</label>
+                  <select id="vehicle-make" class="form-control" required>
+                    <option value="">Select Vehicle Make</option>
+                    <option value="toyota">Toyota</option>
+                    <option value="honda">Honda</option>
+                    <option value="ford">Ford</option>
+                    <option value="chevrolet">Chevrolet</option>
+                    <option value="bmw">BMW</option>
+                    <option value="mercedes">Mercedes-Benz</option>
+                    <option value="audi">Audi</option>
+                    <option value="other">Other</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="vehicle-model">Vehicle Model</label>
+                  <input
+                    type="text"
+                    id="vehicle-model"
+                    class="form-control"
+                    placeholder="Enter vehicle model"
+                    required
+                  />
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="vehicle-year">Vehicle Year</label>
+                  <input
+                    type="number"
+                    id="vehicle-year"
+                    class="form-control"
+                    placeholder="e.g., 2020"
+                    min="1990"
+                    max="2024"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="service-type">Service Needed</label>
+                  <select id="service-type" class="form-control" required>
+                    <option value="">Select Service Type</option>
+                    <option value="maintenance">Routine Maintenance</option>
+                    <option value="brakes">Brake Repair</option>
+                    <option value="engine">Engine Repair</option>
+                    <option value="tires">Tire Service</option>
+                    <option value="ac">AC & Heating</option>
+                    <option value="transmission">Transmission</option>
+                    <option value="diagnostic">Diagnostic Check</option>
+                    <option value="other">Other</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="symptoms">Vehicle Symptoms</label>
+                <textarea
+                  id="symptoms"
+                  class="form-control"
+                  rows="4"
+                  placeholder="Describe your vehicle's issues (strange noises, warning lights, performance problems)..."
+                ></textarea>
+              </div>
+
+              <div class="form-group">
+                <label for="preferred-date">Preferred Service Date</label>
+                <input
+                  type="date"
+                  id="preferred-date"
+                  class="form-control"
+                  required
+                />
+              </div>
+
+              <button type="submit" class="submit-btn">
+                Schedule Repair Service
+              </button>
+            </form>
+          </section>
+
+          <!-- Features Section -->
+          <section class="features-section">
+            <h2 class="section-title">Why Choose Our Mechanic Services</h2>
+            <div class="features-grid">
+              <div class="service-swipe-div">
+                <div class="swiper-button-service-prev">
+                  <i class="fas fa-chevron-left"></i>
+                </div>
+
+                <div class="service-swipe swiper">
+                  <div class="swiper-wrapper">
+                    <div class="feature-item swiper-slide">
+                      <div class="feature-icon">
+                        <i class="fas fa-certificate"></i>
+                      </div>
+                      <h3>ASE Certified Mechanics</h3>
+                      <p>
+                        All our mechanics are ASE certified with proper training
+                        and experience in vehicle systems.
+                      </p>
+                    </div>
+
+                    <div class="feature-item swiper-slide">
+                      <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                      </div>
+                      <h3>Warranty on Repairs</h3>
+                      <p>
+                        12-month/12,000-mile warranty on all repairs and parts
+                        for your peace of mind.
+                      </p>
+                    </div>
+
+                    <div class="feature-item swiper-slide">
+                      <div class="feature-icon">
+                        <i class="fas fa-tools"></i>
+                      </div>
+                      <h3>Advanced Diagnostics</h3>
+                      <p>
+                        State-of-the-art diagnostic equipment to accurately
+                        identify and fix vehicle issues.
+                      </p>
+                    </div>
+
+                    <div class="feature-item swiper-slide">
+                      <div class="feature-icon">
+                        <i class="fas fa-medal"></i>
+                      </div>
+                      <h3>Genuine Parts</h3>
+                      <p>
+                        We use only OEM or high-quality aftermarket parts for
+                        all repairs and replacements.
+                      </p>
+                    </div>
+
+                    <div class="feature-item swiper-slide">
+                      <div class="feature-icon">
+                        <i class="fas fa-clock"></i>
+                      </div>
+                      <h3>Same-Day Service</h3>
+                      <p>
+                        Most repairs completed same day with priority service
+                        for emergency repairs.
+                      </p>
+                    </div>
+
+                    <div class="feature-item swiper-slide">
+                      <div class="feature-icon">
+                        <i class="fas fa-dollar-sign"></i>
+                      </div>
+                      <h3>Transparent Pricing</h3>
+                      <p>
+                        Upfront quotes with no hidden fees. We provide detailed
+                        cost before any work begins.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="swiper-pagination" style="position: static"></div>
+                </div>
+                <div class="swiper-button-service-next">
+                  <i class="fas fa-chevron-right"></i>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Testimonials -->
+          <section class="testimonials-section">
+            <h2 class="section-title">What Our Clients Say</h2>
+            <div class="testimonial-slider">
+              <div class="testimonial-swipe-div">
+                <div class="swiper-button-test-prev">
+                  <i class="fas fa-chevron-left"></i>
+                </div>
+                <div class="testimonial-swipe swiper">
+                  <div class="swiper-wrapper">
+                    <!-- Testimonial 1 -->
+                    <div class="testimonial swiper-slide">
+                      <p class="testimonial-text">
+                        "My car was making strange noises and the mechanic
+                        diagnosed it as a wheel bearing issue. Fixed it same day
+                        at a fair price. Honest and professional service!"
+                      </p>
+                      <div class="testimonial-author">
+                        <div class="author-img">
+                          <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                          <h4>David Martinez</h4>
+                          <p>Toyota Camry Owner</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Testimonial 2 -->
+                    <div class="testimonial swiper-slide">
+                      <p class="testimonial-text">
+                        "Complete brake system overhaul on my SUV. The mechanic
+                        explained everything clearly and the brakes feel brand
+                        new. Highly recommended!"
+                      </p>
+                      <div class="testimonial-author">
+                        <div class="author-img">
+                          <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                          <h4>Sarah Johnson</h4>
+                          <p>Ford Explorer Owner</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Testimonial 3 -->
+                    <div class="testimonial swiper-slide">
+                      <p class="testimonial-text">
+                        "AC stopped working in the middle of summer. The
+                        mechanic came to my office, diagnosed a refrigerant
+                        leak, and fixed it within 2 hours. Lifesaver!"
+                      </p>
+                      <div class="testimonial-author">
+                        <div class="author-img">
+                          <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                          <h4>Robert Kim</h4>
+                          <p>Honda Civic Owner</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Testimonial 4 -->
+                    <div class="testimonial swiper-slide">
+                      <p class="testimonial-text">
+                        "Transmission issues on my truck were diagnosed
+                        accurately and repaired efficiently. Saved me thousands
+                        compared to dealership prices."
+                      </p>
+                      <div class="testimonial-author">
+                        <div class="author-img">
+                          <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                          <h4>Michael Brown</h4>
+                          <p>Chevrolet Silverado Owner</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Testimonial 5 -->
+                    <div class="testimonial swiper-slide">
+                      <p class="testimonial-text">
+                        "Regular maintenance service was thorough and reasonably
+                        priced. The mechanic noticed several potential issues
+                        and prevented bigger problems."
+                      </p>
+                      <div class="testimonial-author">
+                        <div class="author-img">
+                          <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                          <h4>Jennifer Lee</h4>
+                          <p>BMW 3 Series Owner</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-pagination" style="position: static"></div>
+                </div>
+                <div class="swiper-button-test-next">
+                  <i class="fas fa-chevron-right"></i>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- FAQ Section -->
+          <section class="faq-section">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <div class="faq-container">
+              <div class="faq-item">
+                <div class="faq-question">
+                  <span>How quickly can a mechanic come to my location?</span>
+                  <span class="faq-toggle">+</span>
+                </div>
+                <div class="faq-answer">
+                  <p>
+                    For emergency repairs, we can often dispatch a mechanic
+                    within 2-4 hours. For scheduled maintenance, we typically
+                    book appointments within 24-48 hours. Rush service is
+                    available for urgent situations.
+                  </p>
+                </div>
+              </div>
+
+              <div class="faq-item">
+                <div class="faq-question">
+                  <span>Do you provide estimates before starting work?</span>
+                  <span class="faq-toggle">+</span>
+                </div>
+                <div class="faq-answer">
+                  <p>
+                    Yes, we always provide a detailed estimate before beginning
+                    any repair work. The estimate includes parts, labor, and any
+                    additional costs. We will contact you for approval before
+                    proceeding with any work beyond the initial diagnosis.
+                  </p>
+                </div>
+              </div>
+
+              <div class="faq-item">
+                <div class="faq-question">
+                  <span>What types of vehicles do you service?</span>
+                  <span class="faq-toggle">+</span>
+                </div>
+                <div class="faq-answer">
+                  <p>
+                    We service all makes and models including cars, trucks,
+                    SUVs, and vans. Our mechanics have expertise in domestic,
+                    Asian, and European vehicles. For specialized vehicles, we
+                    have mechanics with specific brand training.
+                  </p>
+                </div>
+              </div>
+
+              <div class="faq-item">
+                <div class="faq-question">
+                  <span>Do you offer towing services?</span>
+                  <span class="faq-toggle">+</span>
+                </div>
+                <div class="faq-answer">
+                  <p>
+                    Yes, we partner with reliable towing companies and can
+                    arrange vehicle transport to our facility or your preferred
+                    location. Towing costs are separate and will be included in
+                    your estimate.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- CTA Section -->
+          <section class="cta-section">
+            <h2>Need Reliable Auto Repair?</h2>
+            <p>
+              Our certified mechanics are ready to diagnose and fix your vehicle
+              issues with professionalism and expertise. Book a service now and
+              get 15% off on your first car repair service!
+            </p>
+            <a href="#booking" class="btn-primary" style="font-size: 1.125rem">
+              Book Now & Get 15% Off
+            </a>
+          </section>
+        </main>
       </div>
 
       <!-- Footer -->
@@ -112,5 +747,126 @@
         </div>
       </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <script>
+      // FAQ Toggle Functionality
+      document.querySelectorAll(".faq-question").forEach((question) => {
+        question.addEventListener("click", () => {
+          const faqItem = question.parentElement;
+          faqItem.classList.toggle("active");
+        });
+      });
+
+      // Form Submission
+      document
+        .querySelector(".booking-form")
+        .addEventListener("submit", function (e) {
+          e.preventDefault();
+          alert(
+            "Thank you for your auto repair service request! A certified mechanic will contact you within 2 hours to schedule your service."
+          );
+          this.reset();
+        });
+
+      // Service Card Buttons
+      document
+        .querySelectorAll(".service-card .mechanic-btn")
+        .forEach((button) => {
+          button.addEventListener("click", function () {
+            const serviceName =
+              this.parentElement.querySelector("h3").textContent;
+            alert(
+              `You've selected: ${serviceName}\nYou will be redirected to the booking form to schedule your service.`
+            );
+            document
+              .getElementById("booking")
+              .scrollIntoView({ behavior: "smooth" });
+          });
+        });
+
+      // Mechanic Card Buttons
+      document
+        .querySelectorAll(".mechanic-card .mechanic-btn")
+        .forEach((button) => {
+          button.addEventListener("click", function () {
+            const mechanicName =
+              this.parentElement.querySelector(".mechanic-name").textContent;
+            alert(
+              `You've selected ${mechanicName} for your auto repair. You will be redirected to the booking form.`
+            );
+            document
+              .getElementById("booking")
+              .scrollIntoView({ behavior: "smooth" });
+          });
+        });
+
+      // Initialize Swipers
+      const swiper = new Swiper(".tech-swipe", {
+        slidesPerView: 1,
+        spaceBetween: 20,
+        loop: true,
+        autoplay: {
+          delay: 3000,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-tech-next",
+          prevEl: ".swiper-button-tech-prev",
+        },
+        breakpoints: {
+          640: { slidesPerView: 1 },
+          768: { slidesPerView: 2 },
+          1024: { slidesPerView: 3 },
+        },
+      });
+
+      const serviceSwiper = new Swiper(".service-swipe", {
+        slidesPerView: 1,
+        spaceBetween: 20,
+        loop: true,
+        autoplay: {
+          delay: 3000,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-service-next",
+          prevEl: ".swiper-button-service-prev",
+        },
+        breakpoints: {
+          640: { slidesPerView: 1 },
+          768: { slidesPerView: 2 },
+          1024: { slidesPerView: 3 },
+        },
+      });
+
+      const testSwiper = new Swiper(".testimonial-swipe", {
+        slidesPerView: 1,
+        spaceBetween: 20,
+        loop: true,
+        autoplay: {
+          delay: 3000,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-test-next",
+          prevEl: ".swiper-button-test-prev",
+        },
+        breakpoints: {
+          640: { slidesPerView: 1 },
+          768: { slidesPerView: 2 },
+          1024: { slidesPerView: 3 },
+        },
+      });
+    </script>
   </body>
 </html>
